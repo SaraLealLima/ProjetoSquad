@@ -229,6 +229,14 @@ body {
     background-color: rgb(235, 87, 42);
 }
 
+.recuperar-senha {
+    color: rgb(250, 122, 83);
+}
+
+.recuperar-senha:hover {
+    color: rgb(250, 122, 83);
+}
+
 footer {
 	background-color: rgb(33, 39, 49);
 	height: 200px;
