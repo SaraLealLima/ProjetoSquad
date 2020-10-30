@@ -1,0 +1,299 @@
+/* Fontes principais */
+
+@font-face {
+	font-family: glacial-indifference;
+	src: url(fonts/glacial-indifference/GlacialIndifference-Regular.otf);
+}
+@font-face {
+	font-family: glacial-indifference-bold;
+	src: url(fonts/glacial-indifference/GlacialIndifference-Bold.otf);
+}
+
+
+body {
+    background-color: rgb(33, 39, 49);
+	font-family: glacial-indifference;
+    margin: 0;
+    background-image: url(../boquinha/images/BoquinhaCadastro.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+	align-items: center;
+	height: 100vh;
+	width: 100%; 
+}
+
+/* Navbar styles */
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.5);
+    height: 96px;
+    color: white;
+}
+
+.navbar .navbar-logo {
+	font-family: 'Caveat Brush', cursive;
+    font-size: 52px;
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .nav-link1 {
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+
+}
+
+.navbar .navbar-nav{
+	color: white;
+	font-size: 22px;
+	text-decoration: none;
+	padding: 0 12px;
+}
+
+
+.underline-orange {
+    background:
+       linear-gradient(
+         to bottom, rgb(255, 144, 82) 0%,
+         rgb(255, 144, 82) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+.underline-blue {
+  background:
+       linear-gradient(
+         to bottom, rgb(0, 166, 255) 0%,
+         rgb(0, 166, 255) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+.underline-red {
+  background:
+       linear-gradient(
+         to bottom, rgb(255, 61, 64) 0%,
+         rgb(255, 61, 64) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+.underline-green {
+  background:
+       linear-gradient(
+         to bottom, rgb(119, 211, 83) 0%,
+         rgb(119, 211, 83) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 2px 2px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .3s;
+}
+
+.navbar .navbar-botao {
+	background-color: rgb(241, 135, 77);
+	border-radius: 13px;
+	border: none;
+	color: white;
+	font-size: 19px;
+    padding: 8px 16px;
+    width: 200px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    background-color: white;
+}
+
+.underline-orange:hover {
+    background-size: 2px 50px;
+}
+
+.underline-blue:hover {
+    background-size: 2px 50px;
+}
+
+.underline-red:hover {
+    background-size: 2px 50px;
+}
+
+.underline-green:hover {
+    background-size: 2px 50px;
+}
+
+.navbar-botao:hover {
+    background-color: rgb(236, 104, 32);
+}
+
+.btn-cadastro-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-cadastro-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-entre-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-entre-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* main */
+
+.section-1 {
+	display: flex;
+	padding: 86px;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+}
+
+.card-cadastro {
+	background-color: white;
+	border-radius: 40px;
+    border: none;
+    box-shadow: -9px 7px rgba(0, 0, 0, 0.295);
+	padding: 24px 44px 30px 44px;
+    width: 380px;
+    height: 570px;
+    margin-bottom: 148px;
+    margin-left: 50px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.card-cadastro-titulo {
+    color: rgb(5, 187, 81);
+    font-size: 27pt;
+    text-align: center;
+}
+
+.card-cadastro-texto {
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-size: 15pt;
+}
+
+.card-entre {
+    color: rgb(5, 187, 81);
+    text-decoration: none;
+}
+
+.card-entre:hover {
+    color: rgb(5, 187, 81);
+    text-decoration: none;
+}
+
+.btn-cadastrar {
+    background-color: rgb(5, 187, 81);
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    width: 150px;
+    margin:auto;
+    display:block;
+}
+
+.btn-cadastrar:hover {
+    background-color: rgb(2, 145, 61);
+}
+
+
+
+footer {
+	background-color: rgb(33, 39, 49);
+	height: 200px;
+	color: whitesmoke;
+	text-align: center;
+	padding: 5%;
+}
+
+
+/* CSS Responsivo */
+
+@media (max-width: 576px) {
+    .navbar-collapse
+      {
+          background-color:white;
+          width: 100%;
+          padding: 15px;
+          z-index: 1050;
+          
+      }
+
+      .navbar .nav-link1 {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: black;
+        text-decoration: none;
+        padding: 0 12px;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+	body {
+		background-size: cover;
+		background-position: 50%;
+    }
+
+    .section-1 {
+        display: flex;
+        padding: 86px;
+        align-items: center;
+        height: 90vh;
+        width: 100%;
+    }
+
+    .card-cadastro {
+        background-color: white;
+        border-radius: 40px;
+        border: none;
+        box-shadow: -9px 7px rgba(0, 0, 0, 0.295);
+        padding: 24px 44px 30px 44px;
+        width: auto;
+        height: auto;
+        /* margin-bottom: 148px; */
+        margin: auto;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .card-cadastro-titulo {
+        font-size: 18pt;
+    }
+
+    .card-cadastro-texto {
+        font-size: 11pt;
+    }
+    
+}
