@@ -1,6 +1,49 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
+<?php
+require("php/conexao.php");
 
+$post_iniciado = (isset($_POST['CPFinput']) && isset($_POST['senhainput'])) ? true : false;
+$post_preenchido = (!empty($_POST['CPFinput']) && !empty($_POST['senhainput'])) ? true : false;
+if ($post_iniciado && $post_preenchido) {
+
+    $sql = "SELECT * FROM cadastro";
+    $inquerir = mysqli_query($conexao, $sql);
+
+    while ($linha = mysqli_fetch_assoc($inquerir)) {
+        if ($linha['cpf'] == $_POST['CPFinput']) {
+            if ($linha['senha'] == $_POST['senhainput']) {
+                /* Login feito com sucesso */
+                echo "SUCESSO! #gugu";
+                session_start();
+                $_SESSION['dados'] = $linha;
+                /* Para chamar os dados em outra pagina agora é só fazer: $_SESSION['dados']['nome_da_coluna'] */
+                /* Colunas da tabela cadastro: id_cadastro, email, senha, nome e telefone*/
+                header("Location: index.php");
+            } 
+            else 
+            {
+                /* Exibir mensagem de senha invalida */
+                echo "  <script defer>
+                            setTimeout(function(){
+                                alert('Errou a senha')
+                            }, 1000);
+                        </script>";
+            }
+        } 
+        else 
+        {
+            /* Exibir mensagem de email invalido */
+            echo "  <script defer>
+                        setTimeout(function(){
+                            alert('Errou o cpf')
+                        }, 1000);
+                    </script>";
+        }
+    }
+}
+?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,28 +60,7 @@
 
 <body>
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-logo pl-4" href="index.html"> Boquinha</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div class="navbar-nav mx-auto">
-                <a href="index.html" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
-                <a href="#" class="nav-link1 nav-item underline-blue ">Desnutrição</a>
-                <a href="#" class="nav-link1 nav-item underline-red">Obesidade infantil</a>
-                <a href="#" class="nav-link1 nav-item underline-green ">Receitas</a>
-            </div>
-
-            <div class="navbar-actions">
-                <button class="navbar-botao ml-5 mr-4"> <a class="btn-cadastro-link"
-                        href="cadastro.html">Cadastre-se</a>/<a class="btn-entre-link"
-                        href="login.html">Entre</a></button>
-            </div>
-        </div>
-    </nav>
+    <?php require("php/header.php") ?>
 
     <main>
         <div class="section-1">
@@ -47,17 +69,17 @@
                 <p class="card-login-texto">Entre para acessar a sua conta <br>
                     Ainda não possui uma? <a class="card-cadastre" href="cadastro.html"> Cadastre-se </a> </p>
 
-                <form action="#">
+                <form action="" method="POST">
                     <div class="form-group">
                         <label for="CPFinput">CPF</label>
-                        <input type="number" class="form-control" id="CPFinput" placeholder="Digite o seu CPF">
-                    </div> 
+                        <input type="number" class="form-control" id="CPFinput" name="CPFinput" placeholder="Digite o seu CPF">
+                    </div>
 
                     <div class="form-group">
                         <label for="senhainput">Senha</label>
-                        <input type="password" class="form-control" id="senhainput" placeholder="Digite a sua senha">
+                        <input type="password" class="form-control" id="senhainput" name="senhainput" placeholder="Digite a sua senha">
                         <small id="loginHelp" class="form-text text-muted">Esqueceu sua senha? <a class="recuperar-senha" href="#">Clique aqui</a> </small>
-                    </div> <br> 
+                    </div> <br>
 
                     <button type="submit" class="btn-cadastrar" onclick="aoEntrar()">Login</button>
                 </form>
@@ -75,7 +97,7 @@
         <br>
         <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
     </footer>
-    
+
 </body>
 
 </html>
