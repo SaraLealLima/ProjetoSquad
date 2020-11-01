@@ -2,47 +2,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-require("php/conexao.php");
-
-$post_iniciado = (isset($_POST['CPFinput']) && isset($_POST['senhainput'])) ? true : false;
-$post_preenchido = (!empty($_POST['CPFinput']) && !empty($_POST['senhainput'])) ? true : false;
-if ($post_iniciado && $post_preenchido) {
-
-    $sql = "SELECT * FROM cadastro";
-    $inquerir = mysqli_query($conexao, $sql);
-
-    while ($linha = mysqli_fetch_assoc($inquerir)) {
-        if ($linha['cpf'] == $_POST['CPFinput']) {
-            if ($linha['senha'] == $_POST['senhainput']) {
-                /* Login feito com sucesso */
-                echo "SUCESSO! #gugu";
-                session_start();
-                $_SESSION['dados'] = $linha;
-                /* Para chamar os dados em outra pagina agora é só fazer: $_SESSION['dados']['nome_da_coluna'] */
-                /* Colunas da tabela cadastro: id_cadastro, email, senha, nome e telefone*/
-                header("Location: index.php");
+    require("php/conexao.php");
+    
+    $post_iniciado = (isset($_POST['CPFinput']) && isset($_POST['senhainput'])) ? true : false;
+    $post_preenchido = (!empty($_POST['CPFinput']) && !empty($_POST['senhainput'])) ? true : false;
+    if ($post_iniciado && $post_preenchido) {
+    
+        $sql = "SELECT * FROM cadastro";
+        $inquerir = mysqli_query($conexao, $sql);
+    
+        while ($linha = mysqli_fetch_assoc($inquerir)) {
+            if ($linha['cpf'] == $_POST['CPFinput']) {
+                if ($linha['senha'] == $_POST['senhainput']) {
+                    /* Login feito com sucesso */
+                    echo "SUCESSO! #gugu";
+                    session_start();
+                    $_SESSION['dados'] = $linha;
+                    /* Para chamar os dados em outra pagina agora é só fazer: $_SESSION['dados']['nome_da_coluna'] */
+                    /* Colunas da tabela cadastro: id_cadastro, email, senha, nome e telefone*/
+                    header("Location: index.php");
+                } 
+                else 
+                {
+                    /* Exibir mensagem de senha invalida */
+                    echo "  <script defer>
+                                setTimeout(function(){
+                                    alert('Errou a senha')
+                                }, 1000);
+                            </script>";
+                }
             } 
             else 
             {
-                /* Exibir mensagem de senha invalida */
+                /* Exibir mensagem de email invalido */
                 echo "  <script defer>
                             setTimeout(function(){
-                                alert('Errou a senha')
+                                alert('Errou o cpf')
                             }, 1000);
                         </script>";
             }
-        } 
-        else 
-        {
-            /* Exibir mensagem de email invalido */
-            echo "  <script defer>
-                        setTimeout(function(){
-                            alert('Errou o cpf')
-                        }, 1000);
-                    </script>";
         }
     }
-}
 ?>
 <head>
     <meta charset="UTF-8">
