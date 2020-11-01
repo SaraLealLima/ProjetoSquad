@@ -25,7 +25,7 @@
             <div class="card-cadastro">
                 <p class="card-cadastro-titulo">Cadastre-se</p>
                 <p class="card-cadastro-texto">Crie sua conta agora preenchendo os campos abaixo <br>
-                    Já possui uma conta? <a class="card-entre" href="login.html"> Entre </a> </p>
+                    Já possui uma conta? <a class="card-entre" href="login.php"> Entre </a> </p>
 
                 <form method= "POST" action="php/cadastrar.php">
                     <div class="form-group">

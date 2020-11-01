@@ -28,7 +28,7 @@
         $sql = "INSERT INTO cadastro VALUES (NULL, '$cpf', '$senha');";
         mysqli_query($conexao, $sql);
 
-        header("location: ../index.html");
+        header("location: ../index.php");
     
     }
 
