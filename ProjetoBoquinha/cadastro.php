@@ -17,26 +17,8 @@
 
 <body>
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-sm">
-        <a class="navbar-logo pl-4" href="index.html"> Boquinha</a>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div class="navbar-nav mx-auto">
-                <a href="index.html" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
-                <a href="#" class="nav-link1 nav-item underline-blue ">Desnutrição</a>
-                <a href="#" class="nav-link1 nav-item underline-red">Obesidade infantil</a>
-                <a href="#" class="nav-link1 nav-item underline-green ">Receitas</a>
-            </div>
-
-            <div class="navbar-actions">
-                <button class="navbar-botao ml-5 mr-4"> <a class="btn-cadastro-link" href="cadastro.html">Cadastre-se</a>/<a class="btn-entre-link" href="login.html">Entre</a></button>
-            </div>
-        </div>
-    </nav>
+    <?php require_once("php/header.php")?>
 
     <main>
         <div class="section-1">
@@ -45,23 +27,23 @@
                 <p class="card-cadastro-texto">Crie sua conta agora preenchendo os campos abaixo <br>
                     Já possui uma conta? <a class="card-entre" href="login.html"> Entre </a> </p>
 
-                <form action="#">
+                <form method= "POST" action="php/cadastrar.php">
                     <div class="form-group">
-                        <label for="CPFinput">CPF</label>
-                        <input type="number" class="form-control" id="CPFinput" placeholder="Digite o seu CPF">
+                        <label for="cpfInput">CPF</label>
+                        <input type="number" class="form-control" id="cpfInput" name="cpfInput" placeholder="Digite o seu CPF">
                     </div>
 
                     <div class="form-group">
-                        <label for="senhainput">Senha</label>
-                        <input type="password" class="form-control" id="senhainput" placeholder="Digite a sua senha">
+                        <label for="senhaInput">Senha</label>
+                        <input type="password" class="form-control" id="senhaInput" name="senhaInput" placeholder="Digite a sua senha">
                     </div>
 
                     <div class="form-group">
-                        <label for="senhainput2">Confirme a senha</label>
-                        <input type="password" class="form-control" id="senhainput2" placeholder="Repita a senha">
+                        <label for="senhaInput2">Confirme a senha</label>
+                        <input type="password" class="form-control" id="senhaInput2" name= "senhaInput2" placeholder="Repita a senha">
                     </div> <br>
 
-                    <button type="submit" class="btn-cadastrar" onclick="aoCadastrar()">Cadastrar</button>
+                    <button type="submit" class="btn-cadastrar" onclick="aocadastrar()" >Cadastrar</button>
                 </form>
 
             </div>
@@ -69,7 +51,6 @@
         </div>
     </main>
 
-     
     <footer>
         <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
             alimentarem direitinho,
