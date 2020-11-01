@@ -67,7 +67,7 @@
             <div class="card-login">
                 <p class="card-login-titulo">Entrar</p>
                 <p class="card-login-texto">Entre para acessar a sua conta <br>
-                    Ainda não possui uma? <a class="card-cadastre" href="cadastro.html"> Cadastre-se </a> </p>
+                    Ainda não possui uma? <a class="card-cadastre" href="cadastro.php"> Cadastre-se </a> </p>
 
                 <form action="" method="POST">
                     <div class="form-group">
