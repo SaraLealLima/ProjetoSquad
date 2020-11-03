@@ -11,7 +11,6 @@
 
 
 body {
-    background-color: rgb(33, 39, 49);
 	font-family: glacial-indifference;
     margin: 0;
     background-image: url(images/BOQUINHA.jpg);
@@ -182,19 +181,88 @@ body {
 	border-radius: 36px;
 	border: none;
 	padding: 24px 44px 30px 44px;
-	width: 520px;
+	width: 540px;
 	margin-bottom: 148px;
 }
 
 .card .card-titulo {
 	font-size: 35px;
 	line-height: 43px;
-	margin-bottom: 12px;
+    margin-bottom: 12px;
+
 }
 
-.card .card-texto {
-	color: rgb(87, 35, 4);
-	font-size: 23px;
+.section-2 {
+    background-color: white;
+}
+
+.section-2-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 100px auto;
+}
+
+.section-2-green {
+    background-color: rgb(119, 211, 83);
+    width: 750px;
+    height: 150px;
+    border-radius: 36px;
+    align-items: center;
+    margin: 50px 0px 50px 200px;
+}
+
+.section-2-orange {
+    background-color: rgb(255, 144, 82);
+    width: 750px;
+    height: 180px;
+    border-radius: 36px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.section-2-blue {
+    background-color:  rgb(0, 166, 255);
+    width: 750px;
+    height: 190px;
+    border-radius: 36px;
+    align-items: center;
+    margin: 50px 0px 100px 200px;
+}
+
+.section-text {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+}
+
+.section-3 {
+    background-image: url(/images/objetivoBackground.jpg);
+    background-size: cover;
+    height: 900px;
+    padding: 170px 0px 200px 0px;
+}
+
+.section-objetivo {
+    background-color: rgba(255, 255, 255, 0.822);
+    text-align: center;
+    width: 550px;
+    height: 580px;
+    margin: auto;
+    border-radius: 36px;
+    align-items: center;
+}
+
+.section-text-objetivo {
+    font-size: 22px;
+    text-align: center;
+    padding: 7% 11% 0% 11%;
+}
+
+.objetivo-title {
+    font-size: 30px;
+    margin-top: 10%;
 }
 
 
@@ -228,6 +296,7 @@ footer {
         font-size: 15px;
     }
 }
+
 
 @media screen and (max-width: 768px) {
 	body {

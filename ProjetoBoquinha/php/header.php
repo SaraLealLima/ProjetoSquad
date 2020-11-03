@@ -27,8 +27,8 @@ if ($logado) {
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div class="navbar-nav mx-auto">
             <a href="index.php" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
-            <a href="#" class="nav-link1 nav-item underline-blue ">Desnutrição</a>
             <a href="#" class="nav-link1 nav-item underline-red">Obesidade infantil</a>
+            <a href="#" class="nav-link1 nav-item underline-blue ">Cardápio</a>
             <a href="#" class="nav-link1 nav-item underline-green ">Receitas</a>
         </div>
 
