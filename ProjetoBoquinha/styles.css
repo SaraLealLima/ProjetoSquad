@@ -9,6 +9,10 @@
 	src: url(fonts/glacial-indifference/GlacialIndifference-Bold.otf);
 }
 
+body {
+    font-family: glacial-indifference;
+}
+
 /* Navbar styles */
 
 .navbar {

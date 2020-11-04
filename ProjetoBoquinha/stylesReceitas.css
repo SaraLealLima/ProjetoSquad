@@ -1,0 +1,28 @@
+body {
+    font-family: glacial-indifference;
+}
+
+.img-topo {
+    width: 100%;
+    height: auto;
+    margin-top: -96px;
+}
+
+.bloco {
+    position: absolute;
+    margin-top: 200px;
+    width: 380px;
+    padding-left: 100px;
+    border-radius: 2px;
+}
+
+.texto {
+    font-size: 60px;
+    line-height: 65px;
+    margin-bottom: 10px;
+}
+
+.texto-2 {
+    font-size: 30px;
+    width: 380px;
+}

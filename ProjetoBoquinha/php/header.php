@@ -29,7 +29,7 @@ if ($logado) {
             <a href="index.php" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
             <a href="obesidadeinfantil.php" class="nav-link1 nav-item underline-red">Obesidade infantil</a>
             <a href="#" class="nav-link1 nav-item underline-blue ">Cardápio</a>
-            <a href="#" class="nav-link1 nav-item underline-green ">Receitas</a>
+            <a href="receitas.php" class="nav-link1 nav-item underline-green ">Receitas</a>
         </div>
 
         <div class="navbar-actions">
