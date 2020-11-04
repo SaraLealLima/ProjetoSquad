@@ -47,7 +47,7 @@
 
     <section class="section-3">
         <div><img class="imagem-section-3" src="images/tristeza.png" alt="Tristeza"></div> 
-        <div class="section-2-texto">
+        <div class="section-3-texto">
             Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
             desencadear quadros de doenças mentais ou problemas de relacionamento, incluindo: 
             <br><br>
@@ -68,7 +68,7 @@
         importante — passo para o combate à obesidade infantil. <br>
         Estar comprometido com a saúde e deixar de lado os alimentos ricos em gorduras e
         açúcares é fundamental para que todos consigam manter a nova rotina de uma
-        alimentação saudável a longo prazo. <br>
+        alimentação saudável a longo prazo. <br><br>
         Escolha versões integrais dos cereais e farinhas, como massas, arroz e pães.
         Aumente o consumo de verduras e legumes, e corte do cardápio os alimentos
         ultraprocessados, redes de fast food e os refrigerantes. <br>
@@ -77,16 +77,23 @@
 
     <section class="section-5">
         <div><img class="imagem-section-5" src="images/doctor.png" alt="Médica"></div> 
-        <div class="section-2-texto"> Consulte, também, um nutricionista. Ele é o profissional adequado para orientá-los em
+        <div class="section-5-texto"> Consulte, também, um nutricionista. Ele é o profissional adequado para orientá-los em
         relação à nova dieta, para que sejam consumidos os alimentos e nutrientes em sua
-        proporção ideal. <br> 
+        proporção ideal. <br> <br>
         Além de uma alimentação saudável, ter uma boa amamentação na
         fase inicial, praticar atividades físicas, ter controle do tempo de exposição às telas e
         uma boa noite de sono contribuem para a prevenção da obesidade infantil.
         </div>
     </section>
 
-
+    <footer>
+        <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
+            alimentarem direitinho,
+            aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
+        </p>
+        <br>
+        <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
+    </footer>
 
 </body>
 </html>
