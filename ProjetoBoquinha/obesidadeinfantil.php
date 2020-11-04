@@ -24,7 +24,7 @@
 
     <section class="section-1">
         <div class="section-1-bloco">
-            <div class="section-1-texto"> <div class="section-titulo">O que é a obesidade?</div> <br><br> A obesidade infantil é uma doença multifatorial caracterizada pelo excesso de gordura
+            <div class="section-1-texto"> <div class="section-titulo">O que é a obesidade infantil?</div> <br><br> A obesidade infantil é uma doença multifatorial caracterizada pelo excesso de gordura
             corporal, que interfere na expectativa e qualidade de vida do indivíduo. Pode ser causada por
             fatores nutricionais, genéticos, psicossociais, culturais, entre outros. Está associada a riscos de
             desenvolver doenças crônicas não transmissíveis, tais como diabetes, hipertensão arterial e
