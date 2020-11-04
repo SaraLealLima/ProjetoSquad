@@ -27,25 +27,40 @@
             </div>
         </section>
 
+
+           
+
         <section class="section-2">
-            <div class="section-2-title"> Entenda como a obesidade e sobrepeso infantil <br> podem influenciar na
-            vida dos pequenos.</div>
+            <div class="container">
+                <div class="section-2-title"> Entenda como a obesidade e sobrepeso infantil <br> podem influenciar na vida dos pequenos.</div>
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="section-2-green">
+                            <div class="section-text">São 2,4 milhões de crianças com sobrepeso, 1,2 milhão com obesidade e outras 755 mil com obesidade grave.</div>  
+                        </div>
+                    </div>
+                </div>
 
-            <div class="section-2-green">
-            <div class="section-text">São 2,4 milhões de crianças com sobrepeso, 1,2 milhão com obesidade e
-            outras 755 mil com obesidade grave.</div>  
-            </div>
+                <div class="row">
+                    <div class="col-12 col-md-4"></div>
+                    <div class="col-12 col-md-8">
+                        <div class="section-2-orange"> <div class="section-text"> Uma má alimentação na fase infantil influencia diretamente na sua saúde
+                            podendo ocasionar: Obesidade na vida adulta, desenvolvimento precoce de
+                            hipertensão, diabetes tipo 2, doença hepática gordurosa não alcóolica, asma
+                            dentre outras. </div>
+                        </div>
 
-            <div class="section-2-orange"> <div class="section-text"> Uma má alimentação na fase infantil influencia diretamente na sua saúde
-            podendo ocasionar: Obesidade na vida adulta, desenvolvimento precoce de
-            hipertensão, diabetes tipo 2, doença hepática gordurosa não alcóolica, asma
-            dentre outras. </div>
-            </div>
-
-            <div class="section-2-blue"> <div class="section-text"> Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
-            desencadear quadros de doenças mentais ou problemas de relacionamento,
-            incluindo: bullying, baixa autoestima,interferência na frequência escolar,
-            empregabilidade e salários na vida adulta.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8">
+                        <div class="section-2-blue"> <div class="section-text"> Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
+                            desencadear quadros de doenças mentais ou problemas de relacionamento,
+                            incluindo: bullying, baixa autoestima,interferência na frequência escolar,
+                            empregabilidade e salários na vida adulta.</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
