@@ -1,12 +1,17 @@
 body {
-    background-image: url(images/obinf.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: glacial-indifference;
 }
 
-.section-1{
-    position: relative;
+/* .section-1{
+    background-image: url(images/obinf.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.img-principal {
+    width: 100%;
+    height: auto;
+    margin-top: -96px;
 }
 
 .section-1-bloco {
@@ -14,10 +19,11 @@ body {
     background-color: #F95F62;
     border-radius: 20px;
     width: 850px;
-    height: 500px;
-    position: absolute;
-    top: 80vh;
-    left: 23%;
+    max-width: 90vw;
+    /* height: 500px; */
+    position: relative;
+    margin-top: -100px;
+    padding-bottom: 100px;
 }
 
 .section-1-texto {

@@ -20,8 +20,7 @@
     <!-- Barra de navegação -->
     <?php require("php/header.php")?>
 
-    <section class="section-1">
-    </section>
+    <img class="img-principal" src="images/obinf.png" alt="imagem">
 
     <section class="section-2">
         <div class="section-1-bloco">
