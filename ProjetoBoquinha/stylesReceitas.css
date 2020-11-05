@@ -322,10 +322,25 @@ body {
   }
   
   /* Create an active/current tablink class */
-  /*.tab button.active {
-    background-color:  rgb(119, 211, 83);
+  .tablinks-blue.active {
+    background-color: rgb(0, 166, 255);
     color: white;
-  }*/
+  }
+
+  .tablinks-orange.active {
+    background-color: rgb(255, 144, 82);
+    color: white;
+  }
+
+  .tablinks-green.active {
+    background-color: rgb(119, 211, 83);
+    color: white;
+  }
+
+  .tablinks-red.active {
+    background-color: #F95F62;
+    color: white;
+  }
   
   /* Style the tab content */
   .tabcontent {
@@ -340,23 +355,6 @@ body {
 
   .tab-btns {
     margin-left: 40px;
-  }
-
-  .tablinks-green:focus{
-    background-color: rgb(119, 211, 83);
-    color: white;
-  }
-  .tablinks-orange:focus{
-    background-color: rgb(255, 144, 82);
-    color: white;
-  }
-  .tablinks-red:focus{
-    background-color: #F95F62;
-    color: white;
-  }
-  .tablinks-blue:focus{
-    background-color: rgb(0, 166, 255);
-    color: white;
   }
 
 
