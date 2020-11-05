@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <?php include("php/logado.php") ?>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
 <body>
     <!-- Barra de navegação -->
     <?php require("php/header.php") ?>
-
+    <?php include("php/logado.php") ?>
     <main>
      <section class="section-1">
         <div class="bloco">

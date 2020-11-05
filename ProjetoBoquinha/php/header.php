@@ -12,9 +12,11 @@ if (isset($_SESSION['dados']) && !empty($_SESSION['dados'])) {
 }
 $displayDeslogado = "";
 $displayLogado = "d-none";
+$navDeslogado = "d-none";
 if ($logado) {
     $displayDeslogado = "d-none";
     $displayLogado = "";
+    $navDeslogado = "";
 }
 ?>
 <nav class="navbar navbar-expand-sm">
@@ -27,9 +29,9 @@ if ($logado) {
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <div class="navbar-nav mx-auto">
             <a href="index.php" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
-            <a href="obesidadeinfantil.php" class="nav-link1 nav-item underline-red">Obesidade infantil</a>
-            <a href="#" class="nav-link1 nav-item underline-blue ">Cardápio</a>
-            <a href="receitas.php" class="nav-link1 nav-item underline-green ">Receitas</a>
+            <a href="obesidadeinfantil.php" class="nav-link1 nav-item underline-red <?php $navDeslogado ?>">Obesidade infantil</a>
+            <a href="#" class="nav-link1 nav-item underline-blue <?php $navDeslogado ?>">Cardápio</a>
+            <a href="receitas.php" class="nav-link1 nav-item underline-green <?php $navDeslogado ?>">Receitas</a>
         </div>
 
         <div class="navbar-actions">
