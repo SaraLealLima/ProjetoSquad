@@ -11,7 +11,7 @@ create table if not exists cadastro(
     primary key(id_cadastro)
 )default charset utf8mb4
 engine="InnoDB";
-insert into cadastro values (null, "28381343372", "senha");
+insert into cadastro values (null, "111", "senha");
 create table if not exists alimentos(
 	id_alimento int auto_increment,
     nome_alimento varchar(80) not null unique,
@@ -26,9 +26,11 @@ engine="InnoDB";
 
 create table if not exists receitas(
 	id_receita int auto_increment,
+    idade ENUM('meses_6_8','meses_8_11','anos_1_2','anos_2_4', 'anos_4_10') not null,
     nome_receita varchar(80) not null unique,
     ingredientes int not null,
-    descricao text not null,
+    preparo text not null,
+    imagem varchar(50) not null,
     primary key (id_receita)
 )default charset utf8mb4
 engine="InnoDB";

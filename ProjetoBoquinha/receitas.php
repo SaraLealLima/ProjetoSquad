@@ -43,10 +43,10 @@
             </div>
 
             <div class="tab-btns">
-                <button class="tablinks green" id="defaultOpen" onclick="openTab(event, '6-a-8-meses')">6 a 8 meses</button>
-                <button class="tablinks orange" onclick="openTab(event, '8-a-11-meses')">8 a 11 meses</button>
-                <button class="tablinks blue" onclick="openTab(event, '1-a-2-anos')">1 a 2 anos</button>
-                <button class="tablinks red" onclick="openTab(event, '2-a-4-anos')">2 a 4 anos</button>
+                <button class="tablinks tablinks-green" id="defaultOpen" onclick="openTab(event, '6-a-8-meses')">6 a 8 meses</button>
+                <button class="tablinks tablinks-orange" onclick="openTab(event, '8-a-11-meses')">8 a 11 meses</button>
+                <button class="tablinks tablinks-blue" onclick="openTab(event, '1-a-2-anos')">1 a 2 anos</button>
+                <button class="tablinks tablinks-red" onclick="openTab(event, '2-a-4-anos')">2 a 4 anos</button>
             </div>
            
             
