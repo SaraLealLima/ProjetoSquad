@@ -1,5 +1,6 @@
 body {
     font-family: glacial-indifference;
+    background-color: whitesmoke;
 }
 
 .img-topo {
@@ -25,4 +26,336 @@ body {
 .texto-2 {
     font-size: 30px;
     width: 380px;
+}
+
+
+/* SECTION 2 */
+
+.section-2 {
+    width: 600px;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.section-2-titulo {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-2-texto {
+    font-size: 25px;
+    text-align: center;
+    width: 630px;
+}
+
+
+/* SECTION 3 */
+
+.section-3 {
+    background-color: rgb(119, 211, 83);
+    padding-bottom: 70px;
+}
+
+.section-3-bloco { 
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin: 0px 0px 50px 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.section-3-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.section-3-subtitulo {
+    font-size: 20px;
+    width: 1000px;
+}
+
+.box-receita {
+    background-color: white;
+    margin-left: 120px;
+    margin-bottom: 50px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: -7px 5px rgba(0, 0, 0, 0.295);
+}
+
+.titulo-receita {
+    font-size: 30px;
+    color: rgb(93, 177, 59);
+}
+
+
+/* SECTION 4 */
+
+
+.section-4 {
+    background-color:  rgb(255, 144, 82);
+    padding-bottom: 70px;
+}
+
+.section-4-bloco { 
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin: 0px 0px 50px 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.section-4-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.section-4-subtitulo {
+    font-size: 20px;
+    width: 1000px;
+}
+
+.titulo-receita-4 {
+    font-size: 30px;
+    color: rgb(235, 112, 41);
+}
+
+
+/* SECTION 5 */
+
+.section-5 {
+    background-color:  rgb(0, 166, 255);
+    padding-bottom: 70px;
+}
+
+.section-5-bloco { 
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin: 0px 0px 50px 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.section-5-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.section-5-subtitulo {
+    font-size: 20px;
+    width: 1000px;
+}
+
+.titulo-receita-5 {
+    font-size: 30px;
+    color:  rgb(2, 135, 207);
+}
+
+
+/* SECTION 6 */
+
+.section-6 {
+    background-color: #F95F62;
+    padding-bottom: 70px;
+}
+
+.section-6-bloco { 
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    margin: 0px 0px 50px 120px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.section-6-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.section-6-subtitulo {
+    font-size: 20px;
+    width: 1000px;
+}
+
+.titulo-receita-6 {
+    font-size: 30px;
+    color:  #e03538;
+}
+
+
+/* SECTION SUCOS */
+
+.section-suco {
+    padding-bottom: 70px;
+    background-image: url(/images/img11.jpg);
+    background-size: cover;
+    height: auto;
+    padding-top: 10px;
+}
+
+.section-suco-bloco { 
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 170px;
+    margin: 70px 0px 50px 120px;
+    padding: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.685);
+    border-radius: 15px;
+    width: 650px;
+}
+
+.section-suco-titulo {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.section-suco-subtitulo {
+    font-size: 20px;
+    width: 1000px;
+    color: black;
+    width: 650px;
+}
+
+.titulo-receita-suco {
+    font-size: 30px;
+    color: white;
+}
+
+.box-receita-suco-verde {
+    background-color:rgb(119, 211, 83);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
+    width: 600px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+.box-receita-suco-azul {
+    background-color: rgb(0, 166, 255);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
+    width: 600px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+.box-receita-suco-laranja {
+    background-color: rgb(255, 144, 82);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
+    width: 600px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+.box-receita-suco-vermelho {
+    background-color: #F95F62;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
+    width: 600px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+
+
+
+
+.tab {
+    overflow: hidden;
+    background-color: white;
+    height: auto;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.1s;
+    font-size: 22px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgb(235, 112, 41);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color:  rgb(119, 211, 83);
+    color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+  }
+
+  .tab-text {
+      margin-left: 40px;
+      padding: 30px;
+      font-size: 22px;
+  }
+
+  .tab-btns {
+    margin-left: 40px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .bloco {
+        position: absolute;
+        margin-top: 200px;
+        padding-left: 100px;
+        border-radius: 2px;
+        }  
+    }
+
+@media screen and (max-width: 870px) {
+    .bloco {
+        position: absolute;
+        margin-top: 280px;
+        padding-left: 100px;
+        border-radius: 2px;
+        }  
+
 }
