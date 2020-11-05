@@ -30,8 +30,6 @@
 
 <body>
 
-
-    <?php include("php/logado.php") ?>
     <form method="post" enctype="multipart/form-data" action="">
         <label for="nome">Nome da receita: </label><br>
         <input type="text" name="nome" id="nome"><br>

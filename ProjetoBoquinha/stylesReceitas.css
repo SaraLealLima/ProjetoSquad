@@ -196,10 +196,14 @@ body {
 
 .section-suco {
     padding-bottom: 70px;
-    background-image: url(/images/img11.jpg);
+    background-image: url(/images/img12.jpg);
     background-size: cover;
     height: auto;
     padding-top: 10px;
+}
+
+.section-suco img {
+    opacity: 0.7;
 }
 
 .section-suco-bloco { 
@@ -244,7 +248,6 @@ body {
     display: inline-block;
     margin-left: 100px;
     margin-bottom: 70px;
-    height: 300px;
 }
 .box-receita-suco-azul {
     background-color: rgb(0, 166, 255);
@@ -257,7 +260,6 @@ body {
     display: inline-block;
     margin-left: 100px;
     margin-bottom: 70px;
-    height: 300px;
 }
 .box-receita-suco-laranja {
     background-color: rgb(255, 144, 82);
@@ -270,7 +272,6 @@ body {
     display: inline-block;
     margin-left: 100px;
     margin-bottom: 70px;
-    height: 300px;
 }
 .box-receita-suco-vermelho {
     background-color: #F95F62;
@@ -283,7 +284,6 @@ body {
     display: inline-block;
     margin-left: 100px;
     margin-bottom: 70px;
-    height: 300px;
 }
 
 

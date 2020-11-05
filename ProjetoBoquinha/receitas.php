@@ -57,8 +57,12 @@
             <section class="section-3">
                 <div class="section-3-bloco">
                     <div class="section-3-titulo">Alimentação transitória 6 a 8 meses.</div>
-                    <div class="section-3-subtitulo">Aqui começa a transição para as papinhas, a partir dos 6 meses o bebê já pode começar a ingeri-las. 
-                    Separamos algumas receitas de papinhas deliciosas para seu pequeno já começar a se alimentar bem desde cedo! </div>
+                    <div class="section-3-subtitulo">A partir dos 6 meses é possível introduzir outros alimentos, mantendo o 
+                    leite materno até os dois anos ou mais de acordo com as recomendações médicas. Neste período o leite materno 
+                    deixa de suprir todas as necessidades da criança, logo, a introdução adequada de alimentos complementares 
+                    nesta fase da vida auxilia na prevenção de doenças como desnutrição, anemia, obesidade, pressão alta e diabetes, 
+                    entre outras doenças, portanto, evite adicionar açúcar ou sal nos alimentos e os ofereça na sua condição mais natural 
+                    possível.  </div>
                     <div class="section-3-texto"></div>
                 </div>
                 <?php     
@@ -72,10 +76,12 @@
             <section class="section-4">
                 <div class="section-4-bloco">
                     <div class="section-4-titulo">Alimentação transitória de 8 a 11 meses</div>
-                    <div class="section-4-subtitulo">À medida que a criança cresce, desenvolve outras habilidades, como sentar
-                    sem apoio, aceitar alimentos com consistência mais firme ou em pequenos
-                    pedaços. Ela repara cada vez mais no prato e nos alimentos que está recebendo
-                    e aceita maior variedade e quantidade de comida. </div>
+                    <div class="section-4-subtitulo">Embora o leite de peito continue a ser muito importante para a criança, 
+                    a comida começa a ter uma maior contribuição para atender as necessidades de nutrientes e energia que a
+                     criança precisa para o seu crescimento. Então, neste momento, deve-se ter muita atenção aos sinais de 
+                     fome e saciedade da criança e à quantidade de comida que ela está comendo.A criança já pode receber 
+                     alimentos picados na mesma consistência dos alimentos da família. As carnes podem ser desfiadas. Encoraje a
+                     criança a pegar os alimentos com a mão para estimular os movimentos com as pontas dos dedos. </div>
                     <div class="section-4-texto"></div>
                 </div>
                 <?php     
@@ -90,9 +96,9 @@
                 <div class="section-5-bloco">
                     <div class="section-5-titulo">Alimentação transitória de 1 a 2 anos</div>
                     <div class="section-5-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
-                    alimentos ou recusar alimentos de que gostava anteriormente. Essa situação
-                    não é permanente, e a aceitação pode melhorar com a oferta repetida ou com
-                    a modificação das formas de preparo. </div>
+                    alimentos ou recusar alimentos de que gostava anteriormente. Alimentos ultraprocessados não são as melhores opções para contornar a falta de interesse, essa situação não é permanente, e a aceitação pode melhorar com a oferta repetida ou com a modificação das formas de preparo. É importante nesse período que a família estabeleça um local tranquilo para a criança se alimentar e evite distraí-la com equipamentos eletrônicos. 
+                    Novos dentes surgem e a capacidade de triturar alimentos mais sólidos fica ainda mais desenvolvida. 
+                    </div>
                     <div class="section-5-texto"></div>
                 </div>
                 <?php     
@@ -105,11 +111,19 @@
         <div id="2-a-4-anos" class="tabcontent">
             <section class="section-6">
                 <div class="section-6-bloco">
-                    <div class="section-6-titulo">Alimentação transitória de 1 a 2 anos</div>
-                    <div class="section-6-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
-                    alimentos ou recusar alimentos de que gostava anteriormente. Essa situação
-                    não é permanente, e a aceitação pode melhorar com a oferta repetida ou com
-                    a modificação das formas de preparo. </div>
+                    <div class="section-6-titulo">Alimentação 2 a 4 anos</div>
+                    <div class="section-6-subtitulo">A partir dos 2 anos, a criança começa a se socializar mais, comunica com
+                     mais facilidade suas preferências, aprofunda a relação afetiva com a alimentação e vivencia novas experiências.
+                      Amplia sua autonomia em relação à alimentação, recusando ou aceitando os alimentos oferecidos a ela. Por isso, 
+                      cuidadoras e cuidadores precisam definir o que vão ou não negociar com a criança e quais limites serão 
+                      estabelecidos. A quantidade de alimentos que a criança consegue comer ainda é pequena. Como ela precisa de 
+                      diferentes nutrientes para o desenvolvimento, é importante oferecer a maior variedade de alimentos possível. 
+                      A criança precisa estar com fome para aceitar as refeições em quantidades adequadas. Mesmo crianças que comiam 
+                      de tudo podem começar a recusar alguns alimentos ao completarem 2 anos de idade. Os legumes e as verduras devem 
+                      ser colocados no prato da criança no almoço e no jantar, mesmo que ela rejeite e diga que não vai comer. 
+                      Envolver a criança na escolha da refeição da família, no planejamento da alimentação e no seu preparo é uma 
+                      excelente estratégia para que ela passe a apreciar mais os alimentos.
+                    </div>
                     <div class="section-6-texto"></div>
                 </div>
                 <?php     
@@ -147,7 +161,7 @@
         <div class="box-receita-suco-laranja">
         <p class="titulo-receita-suco">Suco de cenoura com laranja</p>
             <strong>Modo de preparo:</strong>  <br>
-            Modo de fazer: Em uma panela, refogue o alho no óleo. Acrescente
+            Em uma panela, refogue o alho no óleo. Acrescente
             a margarina, os tomates picadinhos e a berinjela sem casca cortada em
             quadradinhos. Coloque o arroz e frite mais um pouco. Adicione o sal e os
             temperos, verifique a água e deixe no fogo até cozinhar.
@@ -173,6 +187,29 @@
             Escolha dois tomates médios maduros, tire as cascas e as sementes. Pique em
             pequenos pedaços e bata no liquidificador com 40 ml de água filtrada e fervida.
             Depois acrescente meia maçã, sem casca e sem caroço e bata mais um pouco.
+        </div>
+        <div class="box-receita-suco-vermelho">
+        <p class="titulo-receita-suco">Chá de frutas</p>
+            <strong>Ingredientes</strong>  <br>
+            • cascas de 1 abacaxi; • cascas de 1 maracujá;
+            • cascas de 1 laranja; • cascas de 1 maçã;
+            • 1 xícara (chá) de açúcar; • 2 litros de água;
+            • 1 colher (sobremesa) flores de camomila; • 1 colher (sobremesa) de semente de erva doce;
+            • canela a gosto; • cravo a gosto. <br> <br>
+            <strong>Modo de preparo:</strong> Lave as cascas das frutas com uma escovinha. Corte-as e leve ao fogo com o açúcar, o cravo, a canela e 2 xícaras (chá) de água. Cozinhe até formar uma calda, continue acrescentando a água aos poucos. Por último coloque as ervas. Desligue o fogo e tampe a panela. Aguarde alguns minutos,
+            coe e sirva quente ou frio.
+        </div>
+        <div class="box-receita-suco-laranja">
+        <p class="titulo-receita-suco">Suco de abóbora com casca e sementes</p>
+            <strong>Ingredientes:</strong>  <br>
+            1 fatia de abóbora com casca e semente; <br>
+            4 maracujás médios; <br>
+            1 litro de água; <br>
+            açúcar a gosto. <br>
+            <strong>Modo de Preparo:</strong> Uma combinação deliciosa e muito refrescante para oferecer ao bebê é a
+            melancia com pêra. Para o preparo é necessário bater no liquidificador ½ fatia
+            de melancia, ½ pêra e ½ copo de água. Se quiser dar um gostinho especial,
+            adicione folhas de hortelã.
         </div>
  
     </section>
