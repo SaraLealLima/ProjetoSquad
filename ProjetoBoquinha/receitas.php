@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <?php include("php/logado.php") ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -16,7 +17,7 @@
 </head>
 <body>
     <!-- Barra de navegação -->
-    <?php require("php/header.php")?>
+    <?php require("php/header.php") ?>
 
     <main>
      <section class="section-1">
@@ -60,45 +61,10 @@
                     Separamos algumas receitas de papinhas deliciosas para seu pequeno já começar a se alimentar bem desde cedo! </div>
                     <div class="section-3-texto"></div>
                 </div>
-            
-                <div class="box-receita">
-                    <p class="titulo-receita">Papinha de batata</p>
-                    <strong> Ingredientes:</strong> <br>
-                    1 Batata do tipo Monalisa com casca. <br>
-                    3 Colheres de sopa de leite materno ou fórmula. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Lave bem a batata. Coloque-a para cozinhar até que o centro fique macio.
-                    Deixe escorrer e esfriar bem antes de amassar. Adicione o leite que a criança já está 
-                    acostumada a ingerir e sirva.
-                </div>
-                <div class="box-receita">
-                    <p class="titulo-receita">Papinha de ervilha e abobrinha</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    100g de ervilha fresca ou congelada <br>
-                    1 abobrinha descascada cortada em cubos <br>
-                    Algumas folhas de hortelã <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Cozinhe a abobrinha e as ervilhas no vapor até que os legumes fiquem macios.
-                    Retire, acrescente a hortelã e bata tudo no liquidificador, até obter uma
-                    consistência homogênea. Se a papinha estiver muito espessa, adicione um pouco
-                    de água do cozimento e bata novamente.
-                </div>
-                <div class="box-receita">
-                    <p class="titulo-receita">Papinha completa</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    1 fio de óleo de canola <br>
-                    1/4 de cebola picada em cubos <br>
-                    150g de peito de frango, sem pele, em cubos <br>
-                    1 xícara de espinafre lavado e picado <br>
-                    1/2 xícara de mandioquinha lavada e descascada em cubos <br>
-                    1/4 de xícara de ervilha (use a fresca, de preferência) <br>
-                    Salsinha picada <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Doure a cebola e o frango no óleo de canola. Adicione os demais ingredientes e
-                    cubra com duas xícaras de água. Deixe cozinhar em panela com tampa, em fogo
-                    baixo, até que todos os ingredientes estejam macios. Retire, desfie o frango e
-                    amasse os demais itens com um garfo. Depois, é só juntar tudo.
-                </div>
+                <?php     
+                $tipo = "meses68";
+                include('php/carregar_receitas.php')
+                ?>
         </section>
         </div>
 
@@ -112,54 +78,10 @@
                     e aceita maior variedade e quantidade de comida. </div>
                     <div class="section-4-texto"></div>
                 </div>
-            
-                <div class="box-receita">
-                    <p class="titulo-receita-4">Papinha de arroz e frango</p>
-                    <strong> Ingredientes:</strong> <br>
-                    3 colheres de sopa de arroz bem cozido ou 2 de arroz cru <br>
-                    ½ concha de caldo de feijão <br>
-                    2 colheres de sopa de frango desfiado e picado <br>
-                    ½ chuchu <br>
-                    ½ tomate <br>
-                    1 colher de chá de óleo vegetal <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Cozinhar o frango, o arroz e o chuchu temperando com óleo, cebola, alho e salsinha, e
-                    deixando cozinhar até que os alimentos fiquem bem macios. Picar bem o frango e
-                    amassar o arroz, o chuchu e o tomate, sem misturar os alimentos no prato do bebê.
-                    Adicionar o caldo de feijão e servir.
-                </div>
-                <div class="box-receita">
-                <p class="titulo-receita-4">Papinha de frango com ervilha</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    3 colheres de sopa de arroz cozido <br>
-                    25g filé de frango desfiado <br>
-                    1 tomate <br>
-                    1 colher de sopa de ervilhas frescas <br>
-                    1 colher de sopa de espinafre picado <br>
-                    1 colher de chá de azeite <br>
-                    Salsinha, cebola, alho e sal para temperar <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Cozinhar o frango em um pouco de água e desfiar. Em seguida, refogar a cebola e o alho
-                    no azeite, acrescentando o tomate picado, a ervilha e um pouco de água, se necessário.
-                    Acrescentar o frango, a salsinha e deixar em fogo baixo por cinco minutos. Depois, servir
-                    esse refogado com arroz e espinafres picados ao bebê.
-                </div>
-                <div class="box-receita">
-                <p class="titulo-receita-4">Papinha de cenoura e carne moida</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    2 a 3 colheres de cenoura ralada; <br>
-                    ⅓ de xícara de espinafre; <br>
-                    3 colheres de sopa de arroz; <br>
-                    2 colheres de sopa de caldo de feijão; <br>
-                    2 colheres de sopa de carne moída; <br>
-                    1 colher de chá de azeite; <br>
-                    Cebola, salsinha e coentro para temperar. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Aquecer o azeite e refogar a cebola até murchar, acrescentando a carne em seguida e
-                    deixando cozinhar por 5 minutos. Adicionar a cenoura, a salsa, o coentro, o espinafre e 1
-                    xícara de água filtrada, deixando a mistura cozinhar por cerca de 20 minutos. Deixar ficar
-                    morno e servir no pratinho do bebê, juntamente com o arroz e o caldo de feijão.
-                </div>
+                <?php     
+                $tipo = "meses811";
+                include('php/carregar_receitas.php')
+                ?>
             </section>
         </div>
 
@@ -173,65 +95,10 @@
                     a modificação das formas de preparo. </div>
                     <div class="section-5-texto"></div>
                 </div>
-            
-                <div class="box-receita">
-                    <p class="titulo-receita-5">Omelete assado de arroz</p>
-                    <strong> Ingredientes:</strong> <br>
-                    Ingredientes:
-                    1 colher (sopa) de cebola; <br>
-                    1 dente de alho; <br>
-                    2 colheres (sopa) de óleo; <br>
-                    1 xícara (chá) de pimentão picado; <br>
-                    1 xícara (chá) de cenoura em <br>
-                    cubos;
-                    2 xícaras (chá) de talos de couve; <br>
-                    2 xícaras (chá) de arroz cozido; <br>
-                    1 colher (sopa) de margarina <br>
-                    ou óleo para untar;
-                    3 ovos; <br>
-                    1 colher (sopa) de salsa <br>
-                    picada;
-                    1⁄2 xícara (chá) de leite; <br>
-                    sal e tempero a gosto. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Doure a cebola no óleo acrescente o sal e os temperos. Junte o pimentão, a cenoura e os
-                    talos de couve picados. Acrescente o arroz cozido e despeje em um pirex untado. Bata
-                    os ovos, acrescente a salsa e o leite e despeje sobre o arroz. Leve ao forno preaquecido até
-                    que os ovos estejam cozidos.
-                </div>
-                <div class="box-receita">
-                    <p class="titulo-receita-5">Caldo Verde</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    Ingredientes
-                    3 maços de couve; <br>
-                    1 kg de batatas; <br>
-                    3 colheres (sopa)de óleo; <br>
-                    3 dentes de alho; <br>
-                    sal a gosto. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Modo de fazer: Cozinhe as batatas lavadas e descascadas em 2 litros de água,
-                    com um pouco de sal, até ficarem bem macias. Reserve a água. Amasse as
-                    batatas e reserve. Em uma panela aqueça o óleo e refogue o alho, e a cebola.
-                    Misture a couve cortada bem fininha, as batatas e a água
-                    reservada. Deixe cozinhar por 30 minutos.
-                </div>
-                <div class="box-receita">
-                <p class="titulo-receita-5">Risoto de berinjela</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    1 dente de alho;
-                    1 colheres (sopa) de óleo; <br>
-                    1 colheres (sopa) de margarina; <br>
-                    3⁄4 xícara (chá) de tomate; <br>
-                    6 xícaras (chá) de berinjela; <br>
-                    água o suficiente; <br>
-                    1 1⁄2 xícara (chá) de arroz; <br>
-                    sal a gosto e temperos naturais. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Modo de fazer: Em uma panela, refogue o alho no óleo. Acrescente
-                    a margarina, os tomates picadinhos e a berinjela sem casca cortada em
-                    quadradinhos. Coloque o arroz e frite mais um pouco. Adicione o sal e os
-                    temperos, verifique a água e deixe no fogo até cozinhar.
-                </div>
+                <?php     
+                $tipo = "ano12";
+                include('php/carregar_receitas.php')
+                ?>
             </section>
         </div>
 
@@ -245,65 +112,11 @@
                     a modificação das formas de preparo. </div>
                     <div class="section-6-texto"></div>
                 </div>
-            
-                <div class="box-receita">
-                    <p class="titulo-receita-6">Omelete assado de arroz</p>
-                    <strong> Ingredientes:</strong> <br>
-                    Ingredientes:
-                    1 colher (sopa) de cebola; <br>
-                    1 dente de alho; <br>
-                    2 colheres (sopa) de óleo; <br>
-                    1 xícara (chá) de pimentão picado; <br>
-                    1 xícara (chá) de cenoura em <br>
-                    cubos;
-                    2 xícaras (chá) de talos de couve; <br>
-                    2 xícaras (chá) de arroz cozido; <br>
-                    1 colher (sopa) de margarina <br>
-                    ou óleo para untar;
-                    3 ovos; <br>
-                    1 colher (sopa) de salsa <br>
-                    picada;
-                    1⁄2 xícara (chá) de leite; <br>
-                    sal e tempero a gosto. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Doure a cebola no óleo acrescente o sal e os temperos. Junte o pimentão, a cenoura e os
-                    talos de couve picados. Acrescente o arroz cozido e despeje em um pirex untado. Bata
-                    os ovos, acrescente a salsa e o leite e despeje sobre o arroz. Leve ao forno preaquecido até
-                    que os ovos estejam cozidos.
-                </div>
-                <div class="box-receita">
-                <p class="titulo-receita-6">Caldo Verde</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    Ingredientes
-                    3 maços de couve; <br>
-                    1 kg de batatas; <br>
-                    3 colheres (sopa)de óleo; <br>
-                    3 dentes de alho; <br>
-                    sal a gosto. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Modo de fazer: Cozinhe as batatas lavadas e descascadas em 2 litros de água,
-                    com um pouco de sal, até ficarem bem macias. Reserve a água. Amasse as
-                    batatas e reserve. Em uma panela aqueça o óleo e refogue o alho, e a cebola.
-                    Misture a couve cortada bem fininha, as batatas e a água
-                    reservada. Deixe cozinhar por 30 minutos.
-                </div>
-                <div class="box-receita">
-                <p class="titulo-receita-6">Risoto de berinjela</p>
-                    <strong> Ingredientes:</strong> <br> 
-                    1 dente de alho;
-                    1 colheres (sopa) de óleo; <br>
-                    1 colheres (sopa) de margarina; <br>
-                    3⁄4 xícara (chá) de tomate; <br>
-                    6 xícaras (chá) de berinjela; <br>
-                    água o suficiente; <br>
-                    1 1⁄2 xícara (chá) de arroz; <br>
-                    sal a gosto e temperos naturais. <br> <br>
-                    <strong>Modo de preparo:</strong>  <br>
-                    Modo de fazer: Em uma panela, refogue o alho no óleo. Acrescente
-                    a margarina, os tomates picadinhos e a berinjela sem casca cortada em
-                    quadradinhos. Coloque o arroz e frite mais um pouco. Adicione o sal e os
-                    temperos, verifique a água e deixe no fogo até cozinhar.
-                </div>
+                <?php     
+                $tipo = "ano24";
+                include('php/carregar_receitas.php')
+                ?>
+
             </section>
 
         </div>
