@@ -286,8 +286,6 @@ body {
 }
 
 
-
-
 .tab {
     overflow: hidden;
     background-color: white;
@@ -306,9 +304,22 @@ body {
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: rgb(235, 112, 41);
+  .red:hover {
+    background-color: #F95F62;
   }
+
+  .green:hover {
+    background-color: rgb(119, 211, 83);
+  }
+
+  .blue:hover {
+    background-color: rgb(0, 166, 255);
+  }
+
+  .orange:hover {
+    background-color: rgb(255, 144, 82);
+  }
+  
   
   /* Create an active/current tablink class */
   .tab button.active {
