@@ -80,7 +80,7 @@ body {
 }
 
 .section-3 {
-    background-image: url(/images/objetivoBackground.jpg);
+    background-image: url(images/objetivoBackground.jpg);
     background-size: cover;
     height: 900px;
     padding: 170px 0px 200px 0px;
