@@ -3,6 +3,10 @@ body {
     background-color: white;
 }
 
+.section-1 {
+   height: 120vh;
+}
+
 .img-topo {
     width: 100%;
     height: auto;
@@ -32,11 +36,13 @@ body {
 /* SECTION 2 */
 
 .section-2 {
-    width: 600px;
+    /* width: 900px; */
     align-items: center;
     margin: auto;
     margin-top: 70px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 .section-2-titulo {
@@ -46,9 +52,8 @@ body {
 }
 
 .section-2-texto {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
-    width: 630px;
 }
 
 
@@ -370,8 +375,17 @@ body {
         margin-top: 200px;
         padding-left: 100px;
         border-radius: 2px;
-        }  
+    }  
+
+    .tab-btns {
+        margin-left: 0; 
+        display: inline-flex;
     }
+
+    .tab-btns button {
+        font-size: 17px;
+    }
+ }
 
 @media screen and (max-width: 870px) {
     .bloco {
@@ -379,6 +393,6 @@ body {
         margin-top: 280px;
         padding-left: 100px;
         border-radius: 2px;
-        }  
+    }  
 
 }

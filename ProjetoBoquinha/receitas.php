@@ -23,17 +23,21 @@
      <section class="section-1">
         <div class="bloco">
              <div class="texto">Receitas Maravilhosas</div>
-             <div class="texto-2">Com ingredientes saudáveis e nutritivos para os pequenos, aproveitando todo seu potêncial alimentício.</div>
+             <div class="texto-2">Com ingredientes saudáveis, de baixo custo e nutritivos para os pequenos, aproveitando todo seu potêncial alimentício.</div>
         </div>
         <img class="img-topo" src="images/img10.jpg" alt="imagem">          
     </section>
 
     <section class="section-2">
         <div class="section-2-titulo"> Vamos começar do começo </div>
-        <div class="section-2-texto">“O aleitamento materno representa uma das experiências nutricionais mais
-            precoces do recém-nascido, dando continuidade à nutrição iniciada na vida
-            intrauterina, garantindo a melhor saúde possível, assim como o melhor
-            resultado no desenvolvimento e estado psicológico da criança.”</div>
+        <div class="section-2-texto">A recomendação atual é que a criança seja amamentada já na primeira hora de vida e por 2 anos ou mais. <br>
+        Nos primeiros 6 meses, a recomendação é que ela receba somente leite materno. Quando isso ocorre, dizemos que a criança está em amamentação exclusiva. Nenhum outro alimento necessita ser dado
+        ao bebê enquanto estiver em amamentação exclusiva: nem líquidos, como água, água de coco, chá, suco ou outros leites; nem qualquer outro alimento, como papinha e mingau. <br>
+        Mesmo em regiões secas e quentes, não é necessário oferecer água às crianças alimentadas somente com leite materno, pois ele possui toda a água necessária para a hidratação nesse período. Em dias quentes, a criança poderá querer mamar com mais frequência para matar a sede. <br>
+        A oferta de outros alimentos antes dos 6 meses, além de desnecessária, pode ser prejudicial, porque aumenta o risco de a criança ficar doente e pode prejudicar a absorção de nutrientes importantes existentes no leite materno, como o ferro e o zinco. Além disso, em geral a criança só está madura para receber outros alimentos em torno dos 6 meses. <br>
+        Apesar da recomendação de amamentar até 2 anos ou mais, muitas pessoas se espantam ao ver crianças dessa idade no peito das mães por achar que são “grandes” demais para mamar. Entretanto, não há tempo máximo estabelecido
+        para o fim da amamentação. Ela pode durar enquanto for desejada pela mulher e pela criança, desde que não haja nenhum prejuízo para ambas.
+</div>
     </section>
 
 
