@@ -36,7 +36,7 @@
         Mesmo em regiões secas e quentes, não é necessário oferecer água às crianças alimentadas somente com leite materno, pois ele possui toda a água necessária para a hidratação nesse período. Em dias quentes, a criança poderá querer mamar com mais frequência para matar a sede. <br>
         A oferta de outros alimentos antes dos 6 meses, além de desnecessária, pode ser prejudicial, porque aumenta o risco de a criança ficar doente e pode prejudicar a absorção de nutrientes importantes existentes no leite materno, como o ferro e o zinco. Além disso, em geral a criança só está madura para receber outros alimentos em torno dos 6 meses. <br>
         Apesar da recomendação de amamentar até 2 anos ou mais, muitas pessoas se espantam ao ver crianças dessa idade no peito das mães por achar que são “grandes” demais para mamar. Entretanto, não há tempo máximo estabelecido
-        para o fim da amamentação. Ela pode durar enquanto for desejada pela mulher e pela criança, desde que não haja nenhum prejuízo para ambas.
+        para o fim da amamentação. Ela pode durar enquanto for desejada pela mulher e pela criança, desde que não haja nenhum prejuízo para ambas. ¹
 </div>
     </section>
 
@@ -66,7 +66,7 @@
                     deixa de suprir todas as necessidades da criança, logo, a introdução adequada de alimentos complementares 
                     nesta fase da vida auxilia na prevenção de doenças como desnutrição, anemia, obesidade, pressão alta e diabetes, 
                     entre outras doenças, portanto, evite adicionar açúcar ou sal nos alimentos e os ofereça na sua condição mais natural 
-                    possível.  </div>
+                    possível.²  </div>
                     <div class="section-3-texto"></div>
                 </div>
                 <?php     
@@ -83,9 +83,9 @@
                     <div class="section-subtitulo">Embora o leite de peito continue a ser muito importante para a criança, 
                     a comida começa a ter uma maior contribuição para atender as necessidades de nutrientes e energia que a
                      criança precisa para o seu crescimento. Então, neste momento, deve-se ter muita atenção aos sinais de 
-                     fome e saciedade da criança e à quantidade de comida que ela está comendo.A criança já pode receber 
+                     fome e saciedade da criança e à quantidade de comida que ela está comendo.¹ A criança já pode receber 
                      alimentos picados na mesma consistência dos alimentos da família. As carnes podem ser desfiadas. Encoraje a
-                     criança a pegar os alimentos com a mão para estimular os movimentos com as pontas dos dedos. </div>
+                     criança a pegar os alimentos com a mão para estimular os movimentos com as pontas dos dedos.² </div>
                 </div>
                 <?php     
                 $tipo = "meses811";
@@ -100,7 +100,7 @@
                     <div class="section-5-titulo">Alimentação transitória de 1 a 2 anos</div>
                     <div class="section-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
                     alimentos ou recusar alimentos de que gostava anteriormente. Alimentos ultraprocessados não são as melhores opções para contornar a falta de interesse, essa situação não é permanente, e a aceitação pode melhorar com a oferta repetida ou com a modificação das formas de preparo. É importante nesse período que a família estabeleça um local tranquilo para a criança se alimentar e evite distraí-la com equipamentos eletrônicos. 
-                    Novos dentes surgem e a capacidade de triturar alimentos mais sólidos fica ainda mais desenvolvida. 
+                    Novos dentes surgem e a capacidade de triturar alimentos mais sólidos fica ainda mais desenvolvida. ¹
                     </div>
                 </div>
                 <?php     
@@ -124,7 +124,7 @@
                       de tudo podem começar a recusar alguns alimentos ao completarem 2 anos de idade. Os legumes e as verduras devem 
                       ser colocados no prato da criança no almoço e no jantar, mesmo que ela rejeite e diga que não vai comer. 
                       Envolver a criança na escolha da refeição da família, no planejamento da alimentação e no seu preparo é uma 
-                      excelente estratégia para que ela passe a apreciar mais os alimentos.
+                      excelente estratégia para que ela passe a apreciar mais os alimentos.²
                     </div>
 
                 </div>
@@ -216,13 +216,25 @@
  
     </section>
 
+    <section class="section-fontes container ml-5 mt-5 mb-5">
+            <div>
+            <p>¹ http://189.28.128.100/dab/docs/portaldab/publicacoes/guia_da_crianca_2019.pdf <br> 
+            ² https://www.docsity.com/pt/alim-infantil-pdf/4740019/ <br>
+            Receitas: <br>
+            https://www.alobebe.com.br/revista/5-receitas-para-as-primeiras-papinhas-do-bebe.html,1288
+            https://www.pastoraldacrianca.org.br/receitas
+            https://www.tuasaude.com/papinhas-para-bebe-com-8-meses/
+            https://www.docsity.com/pt/receitas-infantis-pdf/4903296/
+            https://bebe.abril.com.br/alimentacao-infantil/17-receitas-gostosas-e-saudaveis-para-bebes-e-criancas-pequenas/ </p>
+            </div>
+    </section>
+
     <footer>
-        <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
-            alimentarem direitinho,
-            aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
+        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
+            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
         </p>
         <br>
-        <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
+        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
     </footer>
 
     <script>

@@ -29,7 +29,7 @@
             corporal, que interfere na expectativa e qualidade de vida do indivíduo. Pode ser causada por
             fatores nutricionais, genéticos, psicossociais, culturais, entre outros. Está associada a riscos de
             desenvolver doenças crônicas não transmissíveis, tais como diabetes, hipertensão arterial e
-            doenças cardiovasculares.</div>
+            doenças cardiovasculares. ¹</div>
         </div>
     </section>
 
@@ -41,7 +41,7 @@
             <br><br>
             <ul>
                 <li> Doenças e complicações cardiovasculares, endócrinas, ortopédicas musculoesqueléticas, dermatológicas e neurológicas.</li> <br>
-                <li> Obesidade na vida adulta, desenvolvimento precoce de hipertensão, diabetes tipo 2, doença hepática gordurosa não alcoólica, asma entre outros.</li>
+                <li> Obesidade na vida adulta, desenvolvimento precoce de hipertensão, diabetes tipo 2, doença hepática gordurosa não alcoólica, asma entre outros. ²</li>
             </ul>
         </div>
     </section>
@@ -56,7 +56,7 @@
                 <li> Bullying, baixa autoestima, interferência na frequência escolar,
                 empregabilidade e salários na vida adulta.</li> <br>
                 <li> Excesso de custos em saúde por toda vida.</li> <br>
-                <li> Falta de qualidade de vida.</li>
+                <li> Falta de qualidade de vida. ²</li>
             </ul>
         </div>
     </section>
@@ -72,7 +72,7 @@
         alimentação saudável a longo prazo. <br><br>
         Escolha versões integrais dos cereais e farinhas, como massas, arroz e pães.
         Aumente o consumo de verduras e legumes, e corte do cardápio os alimentos
-        ultraprocessados, redes de fast food e os refrigerantes. <br>
+        ultraprocessados, redes de fast food e os refrigerantes.¹ <br>
         </div>
     </section>
 
@@ -83,17 +83,23 @@
         proporção ideal. <br> <br>
         Além de uma alimentação saudável, ter uma boa amamentação na
         fase inicial, praticar atividades físicas, ter controle do tempo de exposição às telas e
-        uma boa noite de sono contribuem para a prevenção da obesidade infantil.
+        uma boa noite de sono contribuem para a prevenção da obesidade infantil. ¹
         </div>
     </section>
 
+    <section class="section-fontes container ml-5 mt-5 mb-5">
+            <div>
+            <p>¹ https://www.unimed.coop.br/viver-bem/pais-e-filhos/obesidade-infantil <br> 
+            ² https://desiderata.org.br/wp/wp-content/uploads/2019/11/DESIDERATA_PANORAMA-OBESIDADE_WEB_depoimentos.pdf</p>
+            </div>
+    </section>
+
     <footer>
-        <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
-            alimentarem direitinho,
-            aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
+        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
+            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
         </p>
         <br>
-        <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
+        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
     </footer>
 
 </body>

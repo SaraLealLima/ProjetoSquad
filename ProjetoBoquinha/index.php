@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <div class="section-2-green">
-                            <div class="section-text">São 2,4 milhões de crianças com sobrepeso, 1,2 milhão com obesidade e outras 755 mil com obesidade grave.</div>  
+                            <div class="section-text">São 2,4 milhões de crianças com sobrepeso, 1,2 milhão com obesidade e outras 755 mil com obesidade grave.¹</div>  
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                         <div class="section-2-orange"> <div class="section-text"> Uma má alimentação na fase infantil influencia diretamente na sua saúde
                             podendo ocasionar: Obesidade na vida adulta, desenvolvimento precoce de
                             hipertensão, diabetes tipo 2, doença hepática gordurosa não alcóolica, asma
-                            dentre outras. </div>
+                            dentre outras.² </div>
                         </div>
 
                     </div>
@@ -57,10 +57,17 @@
                         <div class="section-2-blue"> <div class="section-text"> Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
                             desencadear quadros de doenças mentais ou problemas de relacionamento,
                             incluindo: bullying, baixa autoestima,interferência na frequência escolar,
-                            empregabilidade e salários na vida adulta.</div>
+                            empregabilidade e salários na vida adulta.²</div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section class="section-fontes container ml-5 mt-5 mb-5">
+            <div>
+            <p>¹ https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/11/ministerio-da-saude-orienta-alimentacao-saudavel-e-atividade-fisica-para-combater-a-obesidade-infantil <br> 
+            ² https://desiderata.org.br/wp/wp-content/uploads/2019/11/DESIDERATA_PANORAMA-OBESIDADE_WEB_depoimentos.pdf</p>
             </div>
         </section>
 
@@ -75,12 +82,11 @@
 
     </main>
     <footer>
-        <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
-            alimentarem direitinho,
-            aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
+        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
+            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
         </p>
         <br>
-        <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
+        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
     </footer>
 
 </body>

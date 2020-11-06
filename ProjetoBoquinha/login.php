@@ -91,12 +91,11 @@
     </main>
 
     <footer>
-        <p>Nosso projetinho lindo pra ajudar o CREN a ajudar os pais e mães de crianças em situação vulnerável a se
-            alimentarem direitinho,
-            aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
+        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
+            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
         </p>
         <br>
-        <p>Todos os direitos reservados Squad 6 SP-M Recode Pro &copy;</p>
+        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
     </footer>
 
 </body>
