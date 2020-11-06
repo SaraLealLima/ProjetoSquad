@@ -61,7 +61,7 @@
             <section class="section-3">
                 <div class="section-3-bloco">
                     <div class="section-3-titulo">Alimentação transitória 6 a 8 meses.</div>
-                    <div class="section-3-subtitulo">A partir dos 6 meses é possível introduzir outros alimentos, mantendo o 
+                    <div class="section-subtitulo">A partir dos 6 meses é possível introduzir outros alimentos, mantendo o 
                     leite materno até os dois anos ou mais de acordo com as recomendações médicas. Neste período o leite materno 
                     deixa de suprir todas as necessidades da criança, logo, a introdução adequada de alimentos complementares 
                     nesta fase da vida auxilia na prevenção de doenças como desnutrição, anemia, obesidade, pressão alta e diabetes, 
@@ -80,13 +80,12 @@
             <section class="section-4">
                 <div class="section-4-bloco">
                     <div class="section-4-titulo">Alimentação transitória de 8 a 11 meses</div>
-                    <div class="section-4-subtitulo">Embora o leite de peito continue a ser muito importante para a criança, 
+                    <div class="section-subtitulo">Embora o leite de peito continue a ser muito importante para a criança, 
                     a comida começa a ter uma maior contribuição para atender as necessidades de nutrientes e energia que a
                      criança precisa para o seu crescimento. Então, neste momento, deve-se ter muita atenção aos sinais de 
                      fome e saciedade da criança e à quantidade de comida que ela está comendo.A criança já pode receber 
                      alimentos picados na mesma consistência dos alimentos da família. As carnes podem ser desfiadas. Encoraje a
                      criança a pegar os alimentos com a mão para estimular os movimentos com as pontas dos dedos. </div>
-                    <div class="section-4-texto"></div>
                 </div>
                 <?php     
                 $tipo = "meses811";
@@ -99,11 +98,10 @@
             <section class="section-5">
                 <div class="section-5-bloco">
                     <div class="section-5-titulo">Alimentação transitória de 1 a 2 anos</div>
-                    <div class="section-5-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
+                    <div class="section-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
                     alimentos ou recusar alimentos de que gostava anteriormente. Alimentos ultraprocessados não são as melhores opções para contornar a falta de interesse, essa situação não é permanente, e a aceitação pode melhorar com a oferta repetida ou com a modificação das formas de preparo. É importante nesse período que a família estabeleça um local tranquilo para a criança se alimentar e evite distraí-la com equipamentos eletrônicos. 
                     Novos dentes surgem e a capacidade de triturar alimentos mais sólidos fica ainda mais desenvolvida. 
                     </div>
-                    <div class="section-5-texto"></div>
                 </div>
                 <?php     
                 $tipo = "ano12";
@@ -116,7 +114,7 @@
             <section class="section-6">
                 <div class="section-6-bloco">
                     <div class="section-6-titulo">Alimentação 2 a 4 anos</div>
-                    <div class="section-6-subtitulo">A partir dos 2 anos, a criança começa a se socializar mais, comunica com
+                    <div class="section-subtitulo">A partir dos 2 anos, a criança começa a se socializar mais, comunica com
                      mais facilidade suas preferências, aprofunda a relação afetiva com a alimentação e vivencia novas experiências.
                       Amplia sua autonomia em relação à alimentação, recusando ou aceitando os alimentos oferecidos a ela. Por isso, 
                       cuidadoras e cuidadores precisam definir o que vão ou não negociar com a criança e quais limites serão 
@@ -128,7 +126,7 @@
                       Envolver a criança na escolha da refeição da família, no planejamento da alimentação e no seu preparo é uma 
                       excelente estratégia para que ela passe a apreciar mais os alimentos.
                     </div>
-                    <div class="section-6-texto"></div>
+
                 </div>
                 <?php     
                 $tipo = "ano24";
