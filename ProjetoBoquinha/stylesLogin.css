@@ -16,8 +16,8 @@ body {
 
 
 .section-1 {
-	display: flex;
-	padding-left: 63%;
+    display: flex;
+    padding-left: 63%;
 	align-items: center;
 	height: 100vh;
     width: 100%;
@@ -86,34 +86,16 @@ body {
 
 /* CSS Responsivo */
 
-@media (max-width: 576px) {
-    .navbar-collapse
-      {
-          background-color:white;
-          width: 100%;
-          padding: 15px;
-          z-index: 1050;
-          
-      }
 
-      .navbar .nav-link1 {
-        margin-top: 5px;
-        margin-bottom: 15px;
-        color: black;
-        text-decoration: none;
-        padding: 0 12px;
-    }
-  }
-
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 700px) {
 	body {
 		background-size: cover;
-		background-position: 50%;
+        background-position: 50%;
+        height: 110vh;
     }
-
     .section-1 {
         display: flex;
-        padding: 86px;
+        padding: 20px;
         align-items: center;
         height: 90vh;
         width: 100%;

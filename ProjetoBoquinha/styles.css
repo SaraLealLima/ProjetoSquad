@@ -1,12 +1,13 @@
 /* Fontes principais */
 
 @font-face {
-	font-family: glacial-indifference;
-	src: url(fonts/glacial-indifference/GlacialIndifference-Regular.otf);
+    font-family: glacial-indifference;
+    src: url(fonts/glacial-indifference/GlacialIndifference-Regular.otf);
 }
+
 @font-face {
-	font-family: glacial-indifference-bold;
-	src: url(fonts/glacial-indifference/GlacialIndifference-Bold.otf);
+    font-family: glacial-indifference-bold;
+    src: url(fonts/glacial-indifference/GlacialIndifference-Bold.otf);
 }
 
 body {
@@ -16,97 +17,91 @@ body {
 /* Navbar styles */
 
 .navbar {
-	background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1050;
+    background-color: rgba(0, 0, 0, 0.5);
     height: 96px;
     color: white;
 }
-
+.navbar-blur{
+    
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 96px;
+    width: 100%;
+    z-index: 2;
+}
 .navbar .navbar-logo {
-	font-family: 'Caveat Brush', cursive;
+    font-family: 'Caveat Brush', cursive;
     font-size: 52px;
-    margin-right: 50px;
+    margin-right: 4%;
     color: white;
     text-decoration: none;
 }
 
 .navbar .nav-link1 {
-    margin-right: 50px;
+    width: 100%;
+    margin-right: 5%;
     color: white;
     text-decoration: none;
+    text-align: center;
+}
+
+.navbar .navbar-nav {
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
     padding: 0 12px;
-
 }
-
-.navbar .navbar-nav{
-	color: white;
-	font-size: 22px;
-	text-decoration: none;
-	padding: 0 12px;
-}
-
 
 .underline-orange {
-    background:
-       linear-gradient(
-         to bottom, rgb(255, 144, 82) 0%,
-         rgb(255, 144, 82) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
+    background: linear-gradient( to bottom, rgb(255, 144, 82) 0%, rgb(255, 144, 82) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
     color: #000;
     text-decoration: none;
     transition: background-size .3s;
 }
 
 .underline-blue {
-  background:
-       linear-gradient(
-         to bottom, rgb(0, 166, 255) 0%,
-         rgb(0, 166, 255) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
+    background: linear-gradient( to bottom, rgb(0, 166, 255) 0%, rgb(0, 166, 255) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
     color: #000;
     text-decoration: none;
     transition: background-size .3s;
 }
 
 .underline-red {
-  background:
-       linear-gradient(
-         to bottom, rgb(255, 61, 64) 0%,
-         rgb(255, 61, 64) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
+    background: linear-gradient( to bottom, rgb(255, 61, 64) 0%, rgb(255, 61, 64) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
     color: #000;
     text-decoration: none;
     transition: background-size .3s;
 }
 
 .underline-green {
-  background:
-       linear-gradient(
-         to bottom, rgb(119, 211, 83) 0%,
-         rgb(119, 211, 83) 100%
-       );
-      background-position: 0 100%;
-      background-repeat: repeat-x;
-      background-size: 2px 2px;
+    background: linear-gradient( to bottom, rgb(119, 211, 83) 0%, rgb(119, 211, 83) 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
     color: #000;
     text-decoration: none;
     transition: background-size .3s;
 }
 
 .navbar .navbar-botao {
-	background-color: rgb(241, 135, 77);
-	border-radius: 13px;
-	border: none;
-	color: white;
-	font-size: 19px;
+    background-color: rgb(241, 135, 77);
+    border-radius: 13px;
+    border: none;
+    color: white;
+    font-size: 19px;
     padding: 8px 16px;
     width: 200px;
 }
@@ -133,11 +128,11 @@ body {
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
-  
+}
+
 .custom-toggler.navbar-toggler {
     border-color: rgb(255, 255, 255);
-  } 
+}
 
 .underline-orange:hover {
     background-size: 2px 50px;
@@ -159,34 +154,54 @@ body {
     background-color: rgb(236, 104, 32);
 }
 
-.section-fontes  {
-  font-size: 14px;
+.section-fontes {
+    word-wrap: break-word;
+    font-size: 14px;
 }
-
 
 footer {
-	background-color: rgb(33, 39, 49);
-	height: 200px;
-	color: whitesmoke;
-	text-align: center;
-	padding: 5%;
+    background-color: rgb(33, 39, 49);
+    min-height: 200px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5%;
 }
 
+footer p {
+    margin-bottom: 0;
+}
 @media (max-width: 576px) {
-    .navbar-collapse
-      {
-          background-color:white;
-          width: 100%;
-          padding: 15px;
-          z-index: 1050;
-          
-      }
-
-      .navbar .nav-link1 {
+    .navbar .nav-link1 {
         margin-top: 5px;
         margin-bottom: 15px;
-        color: black;
+        color: white;
         text-decoration: none;
         padding: 0 12px;
     }
-  }
+    .section-fontes {
+        display: none;
+    }
+    .navbar{
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .navbar-collapse {
+        backdrop-filter: blur(2px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(96px);
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        padding: 15px;
+        z-index: 1050;
+        
+    }
+    
+    .navbar .nav-link1 {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        color: white;
+        text-decoration: none;
+        padding: 0 12px;
+    }
+}

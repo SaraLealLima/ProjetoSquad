@@ -19,7 +19,9 @@ if ($logado) {
     $navDeslogado = "";
 }
 ?>
-<nav class="navbar navbar-expand-sm">
+<div class="navbar-blur"></div>
+<nav class="navbar navbar-expand-lg">
+    
     <a class="navbar-logo pl-4" href="index.php"> Boquinha</a>
 
     <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -33,12 +35,12 @@ if ($logado) {
             <a href="#" class="nav-link1 nav-item underline-blue <?php $navDeslogado ?>">Cardápio</a>
             <a href="receitas.php" class="nav-link1 nav-item underline-green <?php $navDeslogado ?>">Receitas</a>
         </div>
-
         <div class="navbar-actions">
             <!--  Deslogado/Não Cadastrado -->
             <button class="navbar-botao ml-5 mr-4 <?php echo $displayDeslogado ?>"> <a class="btn-cadastro-link" href="cadastro.php">Cadastre-se</a>/<a class="btn-entre-link" href="login.php">Entre</a></button>
             <!-- Logado -->
             <button class="navbar-botao ml-5 mr-4 <?php echo $displayLogado ?>" onclick="window.location.href='php/logout.php'">Sair</button>
         </div>
+       
     </div>
 </nav>

@@ -64,10 +64,10 @@
             </div>
         </section>
 
-        <section class="section-fontes container ml-5 mt-5 mb-5">
-            <div>
-            <p>¹ https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/11/ministerio-da-saude-orienta-alimentacao-saudavel-e-atividade-fisica-para-combater-a-obesidade-infantil <br> 
-            ² https://desiderata.org.br/wp/wp-content/uploads/2019/11/DESIDERATA_PANORAMA-OBESIDADE_WEB_depoimentos.pdf</p>
+        <section class="section-fontes container ml-0 mr-0 mt-0 mb-5">
+            <div class="ml-4">
+            <p class="my-0">¹ <a href="https://www.gov.br/pt-br/noticias/saude-e-vigilancia-sanitaria/2019/11/ministerio-da-saude-orienta-alimentacao-saudavel-e-atividade-fisica-para-combater-a-obesidade-infantil" target="_blank">Ministério da Saúde orienta alimentação saudável e atividade física para combater a obesidade infantil</a> </p>
+            <p class="my-0">² <a href="https://desiderata.org.br/wp/wp-content/uploads/2019/11/DESIDERATA_PANORAMA-OBESIDADE_WEB_depoimentos.pdf" target="_blank">Panorama da obesidade em crianças e adolescentes</a> </p>
             </div>
         </section>
 
@@ -79,15 +79,11 @@
             <br><br><br><br><br><br><br>
             </div>
         </section>
-
+        
     </main>
-    <footer>
-        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
-            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
-        </p>
-        <br>
-        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
-    </footer>
+    <?php 
+        require('./php/footer.php')
+    ?>
 
 </body>
 

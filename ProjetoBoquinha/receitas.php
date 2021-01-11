@@ -229,13 +229,9 @@
             </div>
     </section>
 
-    <footer>
-        <p> Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.  <br>
-            Boquinha - cuidando da alimentação de crianças carentes, aproveitando todo o potêncial alimentício e nutritivo que a comida saudável pode oferecer.
-        </p>
-        <br>
-        <p>Todos os direitos reservados Squad 6 SP-M &copy;</p>
-    </footer>
+    <?php 
+        require('./php/footer.php')
+    ?>
 
     <script>
         function openTab(evt, idade) {
