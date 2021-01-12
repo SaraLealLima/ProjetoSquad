@@ -2,7 +2,9 @@ body {
     font-family: glacial-indifference;
     background-color: white;
 }
-
+main{
+    width: 100%;
+}
 .section-1 {
    height: 120vh;
 }
@@ -71,10 +73,9 @@ body {
     margin: 0px 0px 50px 120px;
     padding-top: 40px;
     padding-bottom: 30px;
-    width: 1000px;
 }
 
-.section-3-titulo {
+.section-titulo {
     font-size: 35px;
     margin-bottom: 10px;
 }
@@ -119,11 +120,6 @@ body {
     padding-bottom: 30px;
 }
 
-.section-4-titulo {
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
 
 .titulo-receita-4 {
     font-size: 30px;
@@ -147,10 +143,6 @@ body {
     padding-bottom: 30px;
 }
 
-.section-5-titulo {
-    font-size: 35px;
-    margin-bottom: 10px;
-}
 
 
 .titulo-receita-5 {
@@ -173,11 +165,6 @@ body {
     margin: 0px 0px 50px 120px;
     padding-top: 40px;
     padding-bottom: 30px;
-}
-
-.section-6-titulo {
-    font-size: 35px;
-    margin-bottom: 10px;
 }
 
 
@@ -357,16 +344,36 @@ body {
 
 
 
-
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 856px) {
+    .section-1{
+        height: 100vh;
+    }
+    .img-topo {
+        object-fit: cover;
+        width: 100%;
+        height: calc(100vh + 96px);
+        margin-top: -96px;
+    }
     .bloco {
-        position: absolute;
-        margin-top: 200px;
-        padding-left: 100px;
-        border-radius: 2px;
+        height: 100vh;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.76);
+        margin-top: 0px;
+        width: 100%;
+        padding-left: 0px;
     }  
-
+    .texto {
+        font-size: 50px;
+        line-height: 65px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    
+    .texto-2 {
+        font-size: 30px;
+        width: 90%;
+        margin-left: 5px;
+    }
     .tab-btns {
         margin-left: 0; 
         display: inline-flex;
@@ -375,33 +382,37 @@ body {
     .tab-btns button {
         font-size: 17px;
     }
+    .section-titulo{
+        width: 95%;
+        margin-left: 5px;
+    }
     .section-3-bloco { 
         color: white;
         margin-left: 5px;
         padding-top: 40px;
         padding-bottom: 30px;
-        width: 100%;
+        width: 95%;
     }
     .section-4-bloco { 
         color: white;
-        margin-left: 5px;
+        margin-left: 0px;
         padding-top: 40px;
         padding-bottom: 30px;
-        width: 100%;
+        width: 95%;
     }
     .section-5-bloco { 
         color: white;
-        margin-left: 5px;
+        margin-left: 0px;
         padding-top: 40px;
         padding-bottom: 30px;
-        width: 100%;
+        width: 95%;
     }
     .section-6-bloco { 
         color: white;
-        margin-left: 5px;
+        margin-left: 0px;
         padding-top: 40px;
         padding-bottom: 30px;
-        width: 100%;
+        width: 95%;
     }
     .box-receita {
         background-color: white;
@@ -418,6 +429,8 @@ body {
         margin-top: 5px;
         margin-bottom: 10px;
         margin: 70px 0px 50px 10px;
+        margin-left: auto;
+        margin-right: auto;
         padding: 20px;
         padding-bottom: 30px;
         background-color: rgba(255, 255, 255, 0.685);
@@ -432,10 +445,9 @@ body {
         border-radius: 20px;
         padding: 40px;
         box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
-        width: 95%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-bottom: 70px;
+        width: 97%;
+        display: block;
+        margin: 10px auto 70px;
     }
 
     .box-receita-suco-azul {
@@ -444,10 +456,9 @@ body {
         border-radius: 20px;
         padding: 40px;
         box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
-        width: 95%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-bottom: 70px;
+        width: 97%;
+        display: block;
+        margin: 10px auto 70px;
     }
     .box-receita-suco-laranja {
         color: white;
@@ -455,10 +466,9 @@ body {
         border-radius: 20px;
         padding: 40px;
         box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
-        width: 95%;
-        display: inline-block;
-        margin-left: 10px;
-        margin-bottom: 70px;
+        width: 97%;
+        display: block;
+        margin: 10px auto 70px;
     }
     .box-receita-suco-vermelho {
         color: white;
@@ -466,10 +476,9 @@ body {
         border-radius: 20px;
         padding: 40px;
         box-shadow: -9px 9px 5px rgba(0, 0, 0, 0.233);
-        width: 95%;
-        display: inline-block;
-        margin-left: 5px;
-        margin-bottom: 70px;
+        width: 97%;
+        display: block;
+        margin: 10px auto 70px;
     }
     .section-suco-subtitulo {
         font-size: 20px;
@@ -479,17 +488,8 @@ body {
     }
     .section-subtitulo {
         font-size: 20px;
-        max-width: 90vw;
-      
+        max-width: 90%;
+        margin-left: 5px;
+        margin-right: 0;
     }
  }
-
-@media screen and (max-width: 870px) {
-    .bloco {
-        position: absolute;
-        margin-top: 280px;
-        padding-left: 100px;
-        border-radius: 2px;
-    }  
-
-}

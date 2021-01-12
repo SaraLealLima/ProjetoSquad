@@ -60,7 +60,7 @@
         <div id="6-a-8-meses" id="defaultOpen" class="tabcontent">
             <section class="section-3">
                 <div class="section-3-bloco">
-                    <div class="section-3-titulo">Alimentação transitória 6 a 8 meses.</div>
+                    <div class="section-titulo">Alimentação transitória 6 a 8 meses.</div>
                     <div class="section-subtitulo">A partir dos 6 meses é possível introduzir outros alimentos, mantendo o 
                     leite materno até os dois anos ou mais de acordo com as recomendações médicas. Neste período o leite materno 
                     deixa de suprir todas as necessidades da criança, logo, a introdução adequada de alimentos complementares 
@@ -79,7 +79,7 @@
         <div id="8-a-11-meses" class="tabcontent">
             <section class="section-4">
                 <div class="section-4-bloco">
-                    <div class="section-4-titulo">Alimentação transitória de 8 a 11 meses</div>
+                    <div class="section-titulo">Alimentação transitória de 8 a 11 meses</div>
                     <div class="section-subtitulo">Embora o leite de peito continue a ser muito importante para a criança, 
                     a comida começa a ter uma maior contribuição para atender as necessidades de nutrientes e energia que a
                      criança precisa para o seu crescimento. Então, neste momento, deve-se ter muita atenção aos sinais de 
@@ -97,7 +97,7 @@
         <div id="1-a-2-anos" class="tabcontent">
             <section class="section-5">
                 <div class="section-5-bloco">
-                    <div class="section-5-titulo">Alimentação transitória de 1 a 2 anos</div>
+                    <div class="section-titulo">Alimentação transitória de 1 a 2 anos</div>
                     <div class="section-subtitulo">No decorrer do segundo ano de vida, ela pode resistir a experimentar novos
                     alimentos ou recusar alimentos de que gostava anteriormente. Alimentos ultraprocessados não são as melhores opções para contornar a falta de interesse, essa situação não é permanente, e a aceitação pode melhorar com a oferta repetida ou com a modificação das formas de preparo. É importante nesse período que a família estabeleça um local tranquilo para a criança se alimentar e evite distraí-la com equipamentos eletrônicos. 
                     Novos dentes surgem e a capacidade de triturar alimentos mais sólidos fica ainda mais desenvolvida. ¹
@@ -113,7 +113,7 @@
         <div id="2-a-4-anos" class="tabcontent">
             <section class="section-6">
                 <div class="section-6-bloco">
-                    <div class="section-6-titulo">Alimentação 2 a 4 anos</div>
+                    <div class="section-titulo">Alimentação 2 a 4 anos</div>
                     <div class="section-subtitulo">A partir dos 2 anos, a criança começa a se socializar mais, comunica com
                      mais facilidade suas preferências, aprofunda a relação afetiva com a alimentação e vivencia novas experiências.
                       Amplia sua autonomia em relação à alimentação, recusando ou aceitando os alimentos oferecidos a ela. Por isso, 

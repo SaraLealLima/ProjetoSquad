@@ -7,7 +7,7 @@ body {
     background-position-y: center;
     background-repeat: no-repeat;
 	align-items: center;
-	height: 100vh;
+	height: 110vh;
 	width: 100%; 
 }
 
@@ -97,7 +97,7 @@ body {
         display: flex;
         padding: 20px;
         align-items: center;
-        height: 90vh;
+        height: 110vh;
         width: 100%;
     }
 
@@ -111,6 +111,7 @@ body {
         height: auto;
         /* margin-bottom: 148px; */
         margin: auto;
+        margin-top: 0;
         align-items: center;
         z-index: 1000;
     }
