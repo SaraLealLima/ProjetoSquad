@@ -170,7 +170,10 @@ footer {
 footer p {
     margin-bottom: 0;
 }
-@media (max-width: 576px) {
+@media (max-width: 876px) {
+    .navbar-blur{
+        position: fixed;
+    }
     .navbar .nav-link1 {
         margin-top: 5px;
         margin-bottom: 15px;
@@ -182,6 +185,8 @@ footer p {
         display: none;
     }
     .navbar{
+        position: fixed;
+        width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
     }
     .navbar-collapse {

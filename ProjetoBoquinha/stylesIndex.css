@@ -186,6 +186,7 @@ body {
         border: none;
         padding: 24px 44px 30px 44px;
         width: 520px;
+        margin-top: 96px;
         margin-bottom: 0px;
         z-index: 1;
     }

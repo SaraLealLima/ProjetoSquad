@@ -351,14 +351,14 @@ main{
     .img-topo {
         object-fit: cover;
         width: 100%;
-        height: calc(100vh + 96px);
-        margin-top: -96px;
+        height: calc(100vh - 96px);
+        margin-top: 96px;
     }
     .bloco {
-        height: 100vh;
+        height: calc(100vh - 96px);
         color: black;
         background-color: rgba(255, 255, 255, 0.76);
-        margin-top: 0px;
+        margin-top: 96px;
         width: 100%;
         padding-left: 0px;
     }  
