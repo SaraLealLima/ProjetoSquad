@@ -87,7 +87,7 @@ body {
         display: flex;
         padding: 20px;
         align-items: center;
-        height: 100vh;
+        height: 120vh;
         width: 100%;
     }
 
@@ -101,7 +101,7 @@ body {
         height: auto;
         /* margin-bottom: 148px; */
         margin: auto;
-        margin-top: 0;
+        margin-top: 96px;
         align-items: center;
         z-index: 1000;
     }
