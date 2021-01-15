@@ -32,7 +32,17 @@ if ($logado) {
         <div class="navbar-nav mx-auto">
             <a href="index.php" class="nav-link1 nav-item underline-orange ">Página Inicial</a>
             <a href="obesidadeinfantil.php" class="nav-link1 nav-item underline-red <?php $navDeslogado ?>">Obesidade infantil</a>
-            <a href="#" class="nav-link1 nav-item underline-blue <?php $navDeslogado ?>">Cardápio</a>
+            <!-- <a href="#" class="nav-link1 nav-item underline-blue <?php $navDeslogado ?>">Cardápio</a> -->
+            <li class="nav-item nav-link1 underline-blue dropdown">
+                <a class="nav-link1 nav-item dropdown-toggle <?php $navDeslogado ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Alimentos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Como Comprar</a>
+                <a class="dropdown-item" href="#">Como Higienizar</a>
+                <a class="dropdown-item" href="#">A importância </a>
+                </div>
+            </li>
             <a href="receitas.php" class="nav-link1 nav-item underline-green <?php $navDeslogado ?>">Receitas</a>
         </div>
         <div class="navbar-actions">
