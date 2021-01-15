@@ -44,6 +44,8 @@
         <div class="tab">
             <div class="tab-text" > 
                 <h2>Receitas</h2>
+                <p>Nosso intuito ao selecionar estas receitas foi oferecer opções práticas e com ingredientes baratos,</br> mostrando que é possível alimentar a criança de forma adequada desde cedo,
+                mas gostaríamos</br> de ressaltar que você pode se sentir livre para substituir ingredientes como desejar por algum</br> outro semelhante que tenha à disposição. </p>
                 <p>Clique nos botões para acessar as receitas correspondentes a faixa etária desejada:</p>
             </div>
 
