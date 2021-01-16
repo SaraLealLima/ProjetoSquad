@@ -171,9 +171,9 @@ footer p {
     margin-bottom: 0;
 }
 @media (max-width: 876px) {
-    .navbar-blur{
+    /* .navbar-blur{
         position: fixed;
-    }
+    } */
     .navbar .nav-link1 {
         margin-top: 5px;
         margin-bottom: 15px;
@@ -185,7 +185,7 @@ footer p {
         display: none;
     }
     .navbar{
-        position: fixed;
+        /* position: fixed; CUIDADO NAO PODE SER FIXED */
         width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
     }
