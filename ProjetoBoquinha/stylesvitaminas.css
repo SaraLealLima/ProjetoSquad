@@ -1,6 +1,6 @@
 
 .vitamina-image {
-    margin: -96px 0 0 0;
+    /*margin: -96px 0 0 0;*/
     background-image: url(images/melanciaBackground.jpg);
     background-size: 100% 100%;
     background-position-x: center;
@@ -8,10 +8,13 @@
 }
 
 .vitamina-section {
+    
     min-height: 160vh!important;
     padding-bottom: 24px;
 }
-
+.section-intro{
+    margin-top: 116px;
+}
 .mineral-section {
     min-height: 150vh!important;
     padding-bottom: 24px;

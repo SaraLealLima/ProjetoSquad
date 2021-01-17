@@ -23,8 +23,8 @@
 
     <main>
         <section class="container-fluid vitamina-section vitamina-image image-responsive">
-            <div class="row justify-content-end" style="padding-top: 96px">
-                <div class="section-intro col-sm-7 col-xs-12 mt-5 mr-sm-5">
+            <div class="row justify-content-end">
+                <div class="section-intro col-sm-7 col-xs-12 mr-sm-5">
                     <h2 class="text-center display-4 mt-sm-3">
                         Vitaminas
                     </h2>
