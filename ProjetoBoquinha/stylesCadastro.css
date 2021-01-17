@@ -75,7 +75,11 @@ body {
 
 
 /* CSS Responsivo */
-
+@media (max-width: 991px) {
+    .card-cadastro{
+        margin-top: 292px;
+    }
+}
 
   @media screen and (max-width: 876px) {
 	body {
