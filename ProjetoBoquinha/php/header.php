@@ -1,12 +1,12 @@
 <?php
 session_start();
 $id_usuario = null;
-$cpf = null;
+$email = null;
 $senha = null;
 $logado = false;
 if (isset($_SESSION['dados']) && !empty($_SESSION['dados'])) {
     $id_usuario = $_SESSION['dados']['id_cadastro'];
-    $cpf = $_SESSION['dados']['cpf'];
+    $email = $_SESSION['dados']['email'];
     $senha = $_SESSION['dados']['senha'];
     $logado = true;
 }
@@ -38,7 +38,7 @@ if ($logado) {
                 Alimentos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="comocomprar.php">Como Comprar</a>
+                <a class="dropdown-item" href="#">Como Comprar</a>
                 <a class="dropdown-item" href="#">Como Higienizar e Armazenar</a>
                 <a class="dropdown-item" href="mineraisvitaminas.php">Vitaminas e Minerais </a>
                 </div>

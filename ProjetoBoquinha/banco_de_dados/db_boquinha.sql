@@ -28,14 +28,13 @@ CREATE TABLE `alimentos` (
   `id_alimento` int(11) NOT NULL AUTO_INCREMENT,
   `nome_alimento` varchar(80) NOT NULL,
   `descricao` text NOT NULL,
-  `imagem` text NOT NULL,
   `porcao` decimal(3,1) DEFAULT NULL,
   `calorias` decimal(3,1) DEFAULT NULL,
   `carboidratos` decimal(3,1) DEFAULT NULL,
   `proteinas` decimal(3,1) DEFAULT NULL,
   PRIMARY KEY (`id_alimento`),
   UNIQUE KEY `nome_alimento` (`nome_alimento`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -44,7 +43,6 @@ CREATE TABLE `alimentos` (
 
 LOCK TABLES `alimentos` WRITE;
 /*!40000 ALTER TABLE `alimentos` DISABLE KEYS */;
-INSERT INTO `alimentos` VALUES (1,'Carne Bovina','Cor vermelho vivo;Gordura branca cremosa;Consistência firme;Cheiros característicos;Produtos cárneos salgados, curados ou defumados podem ser recebidos ou comprados na temperatura ambiente devendo estar de maneira geral secas e sem manchas escuras, cinzas ou esverdeadas','carne_bovina.png',NULL,NULL,NULL,NULL),(2,'Carne Suína','Cor vermelho claro; Gordura branca e firme; Cheiro suave; Ossos vermelhos e porosos; Atentar para formações redondas brancas na carne, semelhantes à canjica que a tornam impróprias para o consumo;','carne_suina.png',NULL,NULL,NULL,NULL),(3,'Carne de aves','Pele de cor amarelo rosado; Carne firme; Sem manchas azuis ou verdes; Com cheiro próprio; Observar a textura, deve ser firme e não pegajosa','carne_de_aves.png',NULL,NULL,NULL,NULL),(4,'Peixes','Pele úmida e não gordurosa; Olhos brilhantes e salientes, vivos;  Escamas bem presas à pele e brilhantes; Guelras vermelhas; Carne firme e resistente à pressão dos dedos e de cor branco rosado; Cauda firme; Cheiro próprio','peixes.png',NULL,NULL,NULL,NULL),(5,'Leite e derivados','Pasteurizado: líquido homogêneo; cor branco levemente amarelada; cheiro suave e características; gosto meio adocicado; Em pó: bem solto, de cor amarelo claro, sabor característico (levemente adocicado), dissolvendo-se com facilidade ao bater; As embalagens devem conter carimbo do SIF (Serviço de Inspeção Federal); Os derivados devem apresentar cor e dor característicos; As embalagens não devem estar estufadas ou alteradas; Verificar data de fabricação e validade','leite_e_derivados.png',NULL,NULL,NULL,NULL),(6,'Salsicha','Verificar se a embalagem está integra, sem líquido, sem líquido no seu interior com data de fabricação e validade e registros, conforme legislação em vigor; Verificar cor e odor: sem cheiro de ranço e sem manchas esbranquiçadas, verdes ou cinzas; Observar a textura: deve ser firme e não pegajosa','salsicha.png',NULL,NULL,NULL,NULL),(7,'Pães e Bolos','Observar a qualidade: cor, odor, textura e integridade do alimento; Observar a data de fabricação e validade','paes_e_bolos.png',NULL,NULL,NULL,NULL),(8,'Legumes','Tamanho uniforme; Consistência firme; Casca lisa e limpa; Verificar se há a presença de dados físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes do armazenamento','legumes.png',NULL,NULL,NULL,NULL),(9,'Frutas','Consistência firme; Cor característica; Verificar a qualidade: características sensoriais (tamanho, cor, aroma, grau de maturação); Verificar se há a existência de dados físicos, manchas, perfurações, amassados e mofados bem como a presença de insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','frutas.png',NULL,NULL,NULL,NULL),(10,'Verduras','Folhas frescas, tenras e limpas; Rejeitar as folhas: murchas e amareladas; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','verduras.png',NULL,NULL,NULL,NULL),(11,'Cereais e Leguminosas','Tamanho uniforme de acordo com o feculento; Não devem apresentar furos, manchas e defeitos; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','cereais_leguminosas.png',NULL,NULL,NULL,NULL),(12,'Enlatados','Latas não podem estar amassadas, enferrujadas, estufadas ou com vazamentos; Verificar data de fabricação e validade','enlatados.png',NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `alimentos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -57,10 +55,10 @@ DROP TABLE IF EXISTS `cadastro`;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `cadastro` (
   `id_cadastro` int(11) NOT NULL AUTO_INCREMENT,
-  `cpf` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `senha` varchar(20) NOT NULL,
   PRIMARY KEY (`id_cadastro`),
-  UNIQUE KEY `cpf` (`cpf`)
+  UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -136,4 +134,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-16 22:00:56
+-- Dump completed on 2021-01-15 17:57:59

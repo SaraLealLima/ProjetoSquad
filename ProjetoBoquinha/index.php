@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <!-- Barra de navegação -->
+    
     <?php require("php/header.php")?>
     <main>
         <section class="section-1">
