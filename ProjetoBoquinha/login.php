@@ -65,7 +65,7 @@
 
     <main>
         <div class="section-1">
-            <div class="card-login">
+            <div class="card-login container-fluid">
                 <p class="card-login-titulo">Entrar</p>
                 <p class="card-login-texto">Entre para acessar a sua conta <br>
                     Ainda não possui uma? <a class="card-cadastre" href="cadastro.php"> Cadastre-se </a> </p>
@@ -82,7 +82,7 @@
                         <small id="loginHelp" class="form-text text-muted">Esqueceu sua senha? <a class="recuperar-senha" href="#">Clique aqui</a> </small>
                     </div> <br>
 
-                    <button type="submit" class="btn-cadastrar" onclick="aoEntrar()">Login</button>
+                    <button type="submit" class="btn btn-cadastrar" onclick="aoEntrar()">Login</button>
                 </form>
 
             </div>

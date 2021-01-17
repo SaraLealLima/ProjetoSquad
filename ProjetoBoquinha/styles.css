@@ -170,6 +170,7 @@ footer {
 footer p {
     margin-bottom: 0;
 }
+<<<<<<< HEAD
 
 .link-sobre {
     font-size: 20px;
@@ -180,6 +181,9 @@ a:hover {
 }
 
 @media (max-width: 876px) {
+=======
+@media (max-width: 991px) {
+>>>>>>> d19bf0c6d5ea1d9c6db4c0162a6913bafcb70365
     .navbar-blur{
         z-index: 1001;
         position: fixed;
@@ -190,6 +194,7 @@ a:hover {
         color: white;
         text-decoration: none;
         padding: 0 12px;
+        margin-right: 0;
     }
     .section-fontes {
         display: none;

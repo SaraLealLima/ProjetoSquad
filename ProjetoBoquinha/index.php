@@ -19,7 +19,7 @@
 <body>
     
     <?php require("php/header.php")?>
-    <main>
+    <main class="container-fluid mx-0 px-0">
         <section class="section-1">
             <div class="card">
                 <div class="card-titulo">Assim como os primeiros passos, as primeiras colheradas são decisivas para o
@@ -35,7 +35,7 @@
                 <div class="section-2-title"> Entenda como a obesidade e sobrepeso infantil <br> podem influenciar na vida dos pequenos.</div>
                 <div class="row">
                     <div class="col-12 col-md-8">
-                        <div class="section-2-green">
+                        <div class="section-2-green container-fluid">
                             <div class="section-text">São 2,4 milhões de crianças com sobrepeso, 1,2 milhão com obesidade e outras 755 mil com obesidade grave.¹</div>  
                         </div>
                     </div>
@@ -44,7 +44,7 @@
                 <div class="row">
                     <div class="col-12 col-md-4"></div>
                     <div class="col-12 col-md-8">
-                        <div class="section-2-orange"> <div class="section-text"> Uma má alimentação na fase infantil influencia diretamente na sua saúde
+                        <div class="section-2-orange container-fluid"> <div class="section-text"> Uma má alimentação na fase infantil influencia diretamente na sua saúde
                             podendo ocasionar: Obesidade na vida adulta, desenvolvimento precoce de
                             hipertensão, diabetes tipo 2, doença hepática gordurosa não alcóolica, asma
                             dentre outras.² </div>
@@ -54,7 +54,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-8">
-                        <div class="section-2-blue"> <div class="section-text"> Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
+                        <div class="section-2-blue container-fluid"> <div class="section-text"> Além disso, existem os riscos de cunho social e emocional, já que a obesidade pode
                             desencadear quadros de doenças mentais ou problemas de relacionamento,
                             incluindo: bullying, baixa autoestima,interferência na frequência escolar,
                             empregabilidade e salários na vida adulta.²</div>
@@ -72,7 +72,7 @@
         </section>
 
         <section class="section-3">
-            <div class="section-objetivo"><div class="section-text-objetivo"> <div class="objetivo-title"> Objetivo </div> <br><br> Acreditamos que a prática de uma boa alimentação desde o nascimento é determinante para
+            <div class="section-objetivo container-fluid"><div class="section-text-objetivo"> <div class="objetivo-title"> Objetivo </div> <br><br> Acreditamos que a prática de uma boa alimentação desde o nascimento é determinante para
             uma vida mais saudável. O objetivo do projeto é ser um facilitador para os responsáveis das
             crianças, fornecendo um leque de receitas nutritivas e de baixo custo que ajudam no combate
             a obesidade infantil.</div>

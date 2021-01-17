@@ -75,9 +75,13 @@ body {
 
 
 /* CSS Responsivo */
+@media (max-width: 991px) {
+    .card-cadastro{
+        margin-top: 292px;
+    }
+}
 
-
-  @media screen and (max-width: 576px) {
+  @media screen and (max-width: 876px) {
 	body {
 		background-size: cover;
 		background-position: 50%;
@@ -86,12 +90,17 @@ body {
     .section-1 {
         display: flex;
         padding: 20px;
+        padding-top: 0;
         align-items: center;
         height: 120vh;
         width: 100%;
     }
 
     .card-cadastro {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -45%);
         background-color: white;
         border-radius: 40px;
         border: none;
