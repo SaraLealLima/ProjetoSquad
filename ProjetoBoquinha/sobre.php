@@ -20,9 +20,9 @@
     </header>
 
     <main>
-        <section class="container-fluid sobre-imagem image-responsive vh-100 section-1">
-            <div class="row justify-content-center">
-                <div class="card-azul col-sm-8 col-9 mt-5">
+        <section class="container-fluid sobre-imagem section-1">
+            <div class="row justify-content-end h-100 align-items-center pr-sm-5">
+                <div class="card-azul col-sm-4 col-9 mt-5 mr-5">
                     <div class="card-titulo p-4">Sobre o Projeto Boquinha </div>
                 </div> 
             </div>
