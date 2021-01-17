@@ -29,8 +29,8 @@
 
                 <form method= "POST" action="php/cadastrar.php">
                     <div class="form-group">
-                        <label for="cpfInput">CPF</label>
-                        <input type="number" class="form-control" id="cpfInput" name="cpfInput" placeholder="Digite o seu CPF">
+                        <label for="emailInput">E-mail</label>
+                        <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Digite o seu E-mail">
                     </div>
 
                     <div class="form-group">

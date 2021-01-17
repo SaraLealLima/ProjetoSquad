@@ -10,22 +10,22 @@
         $senhaIgual = true;
     } 
     
-    $cpf = $_POST['cpfInput'];
+    $email = $_POST['emailInput'];
     $sql = "SELECT * FROM cadastro";
     $resultado = mysqli_query($conexao, $sql);
-    $cpfValido = true;
+    $emailValido = true;
     while ($linha = mysqli_fetch_assoc($resultado)){
-        if($linha ['cpf'] == $cpf){
-            $cpfValido = false;
+        if($linha['email'] == $email){
+            $emailValido = false;
         }
      }
     
-    if($senhaIgual && $cpfValido){
+    if($senhaIgual && $emailValido){
 
    {
         $senha= $_POST['senhaInput'];
         
-        $sql = "INSERT INTO cadastro VALUES (NULL, '$cpf', '$senha');";
+        $sql = "INSERT INTO cadastro VALUES (NULL, '$email', '$senha');";
         mysqli_query($conexao, $sql);
 
         header("location: ../index.php");
@@ -36,7 +36,7 @@
 
     else
     {
-        echo "<script>alert('senhas não identicas/preenchidas ou CPF Já cadastrado');
+        echo "<script>alert('senhas não identicas/preenchidas ou E-mail Já cadastrado');
         window.location.href = '../cadastro.php'
         </script>";
     }

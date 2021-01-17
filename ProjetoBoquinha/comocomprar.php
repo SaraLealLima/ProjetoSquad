@@ -21,7 +21,7 @@
 
     <main>
         <section class="container mt-xs-4 p-sm-5 mt-sm-5 text-center">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center section-1">
                 <div class="col-xs-10 col-sm-8">
                     <h2 class="title mt-5">Planejamento e Custo beneficio </h2>
                 </div>

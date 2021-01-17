@@ -1,12 +1,12 @@
 <?php
 session_start();
 $id_usuario = null;
-$cpf = null;
+$email = null;
 $senha = null;
 $logado = false;
 if (isset($_SESSION['dados']) && !empty($_SESSION['dados'])) {
     $id_usuario = $_SESSION['dados']['id_cadastro'];
-    $cpf = $_SESSION['dados']['cpf'];
+    $email = $_SESSION['dados']['email'];
     $senha = $_SESSION['dados']['senha'];
     $logado = true;
 }
