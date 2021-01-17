@@ -13,7 +13,6 @@
 
 .section-1 {
 	display: flex;
-	padding: 86px;
 	align-items: center;
 	height: 110vh;
 	width: 100%;
@@ -25,9 +24,7 @@
 	background-color: rgba(0, 166, 255, 0.644);
 	border-radius: 36px;
 	border: none;
-	padding: 24px 44px 30px 44px;
-    max-width: 540px;
-    min-width: 200px;
+	/* padding: 24px 44px 30px 44px; */
 }
 
 .card-titulo {

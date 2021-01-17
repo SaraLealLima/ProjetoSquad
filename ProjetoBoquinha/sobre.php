@@ -21,16 +21,16 @@
 
     <main>
         <section class="container-fluid sobre-imagem image-responsive vh-100 section-1">
-            <div class="row">
-                <div class="card-azul col-12 mt-5">
-                    <div class="card-titulo">Sobre o Projeto Boquinha </div>
-                </div>
+            <div class="row justify-content-center">
+                <div class="card-azul col-sm-8 col-9 mt-5">
+                    <div class="card-titulo p-4">Sobre o Projeto Boquinha </div>
+                </div> 
             </div>
         </section>
 
         <section class="container-fluid section-2">
-            <div class="row col-12">
-                <div class="col-xs-12 m-5 p-sm-5 text-center texto-sobre">
+            <div class="row">
+                <div class="col-xs-12 m-sm-5 p-sm-5 m-3 text-center texto-sobre">
                     <p>O projeto boquinha surgiu por meio de um dos programas da Recode, que visa gerar oportunidades e estimular a transformação social e o empoderamento  digital. <br> A Recode Pro possibilitou além do desenvolvimento tecnológico, um olhar crítico diante das questões sociais, as quais muitas vezes fazem parte do nosso cotidiano de forma direta.  <br>
                     Acreditamos que uma boa alimentação é um dos grandes fatores para uma vida saudável, logo, o objetivo do nosso projeto é ser um site informativo e instrutivo para famílias de baixa renda que possuem crianças, fornecendo um leque de receitas nutritivas e de baixo custo que ajudam no combate a obesidade infantil. 
                     </p>
@@ -40,12 +40,12 @@
 
         <section class="container-fluid section-3">
             <div class="row justify-content-center">
-                <div class="col-sm-11 justify-content-center">
+                <div class="col-sm-11">
                     <h3>Conheça os integrantes do projeto</h3> 
                     <p class="lead">Membros do Squad 6 de São Paulo, responsáveis por idealizar e desenvolver o Boquinha</p><br>
 
-                    <div class="card-deck mb-5">
-                        <div class="card border-success" style="width: 18rem;">
+                    <div class="card-deck row mb-5 justify-content-center">
+                        <div class="card col-8 col-sm-2 px-0 mx2 border-success">
                             <img class="card-img-top" src="./images/integranteCosmo" alt="Cosmo Amaro">
                             <div class="card-body">
                                 <h5 class="card-title">Cosmo Amaro</h5>
@@ -54,7 +54,7 @@
                             </div>
                         </div>
     
-                        <div class="card border-danger" style="width: 18rem;">
+                        <div class="card col-8 col-sm-2 px-0 mx-2 border-danger">
                             <img class="card-img-top" src="./images/integranteDiego" alt="Diego Carmo">
                             <div class="card-body">
                                 <h5 class="card-title">Diego Carmo</h5>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
     
-                        <div class="card border-primary" style="width: 18rem;">
+                        <div class="card col-8 col-sm-2 px-0 mx-2 border-primary">
                             <img class="card-img-top" src="./images/integranteRafael" alt="Rafael Amaral">
                             <div class="card-body">
                                 <h5 class="card-title">Rafael Amaral</h5>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
 
-                        <div class="card border-success" style="width: 18rem;">
+                        <div class="card col-8 col-sm-2 px-0 mx-2 border-success">
                             <img class="card-img-top" src="./images/integranteSamanta" alt="Samanta Antonio">
                             <div class="card-body">
                                 <h5 class="card-title">Samanta Antonio</h5>
@@ -81,7 +81,7 @@
                             </div>
                         </div>
 
-                        <div class="card border-danger" style="width: 18rem;">
+                        <div class="card col-8 col-sm-2 px-0 mx-2 border-danger">
                             <img class="card-img-top" src="./images/integranteSara" alt="Sara Leal Lima">
                             <div class="card-body">
                                 <h5 class="card-title">Sara Leal Lima</h5>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
 
-                        <div class="card border-primary" style="width: 18rem;">
+                        <div class="card col-8 col-sm-2 px-0 mx-2 border-primary">
                             <img class="card-img-top" src="./images/integranteVinicius" alt="Vinicius Brito">
                             <div class="card-body">
                                 <h5 class="card-title">Vinicius Brito</h5>
@@ -103,7 +103,7 @@
             </div>
         </section>
 
-        <section class="container-fluid section-4">
+        <section class="container-fluid section-4 my-5">
             <div class="row justify-content-center">
                 <div class="col-sm-11 justify-content-center">
                     <h3>Conheça os parceiros do projeto boquinha</h3>
