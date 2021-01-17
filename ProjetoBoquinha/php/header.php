@@ -47,7 +47,7 @@ if ($logado) {
         </div>
         <div class="navbar-actions">
             <!--  Deslogado/Não Cadastrado -->
-            <button class="navbar-botao ml-5 mr-4 <?php echo $displayDeslogado ?>"> <a class="btn-cadastro-link" href="cadastro.php">Cadastre-se</a>/<a class="btn-entre-link" href="login.php">Entre</a></button>
+            <button class="navbar-botao ml-5 mr-4 <?php echo $displayDeslogado ?>"> <!-- <a class="btn-cadastro-link" href="cadastro.php">Cadastre-se</a>/--><a class="btn-entre-link" href="login.php">Entrar</a></button>
             <!-- Logado -->
             <button class="navbar-botao ml-5 mr-4 <?php echo $displayLogado ?>" onclick="window.location.href='php/logout.php'">Sair</button>
         </div>

@@ -170,7 +170,7 @@ footer {
 footer p {
     margin-bottom: 0;
 }
-@media (max-width: 876px) {
+@media (max-width: 991px) {
     .navbar-blur{
         z-index: 1001;
         position: fixed;

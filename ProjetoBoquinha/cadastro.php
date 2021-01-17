@@ -22,7 +22,7 @@
 
     <main>
         <div class="section-1">
-            <div class="card-cadastro">
+            <div class="card-cadastro container-fluid">
                 <p class="card-cadastro-titulo">Cadastre-se</p>
                 <p class="card-cadastro-texto">Crie sua conta agora preenchendo os campos abaixo <br>
                     Já possui uma conta? <a class="card-entre" href="login.php"> Entre </a> </p>
@@ -43,7 +43,7 @@
                         <input type="password" class="form-control" id="senhaInput2" name= "senhaInput2" placeholder="Repita a senha">
                     </div> <br>
 
-                    <button type="submit" class="btn-cadastrar" onclick="aocadastrar()" >Cadastrar</button>
+                    <button type="submit" class="btn btn-cadastrar" onclick="aocadastrar()" >Cadastrar</button>
                 </form>
 
             </div>
