@@ -8,7 +8,7 @@
 }
 
 .vitamina-section {
-    
+    margin-top: -96px;
     min-height: 160vh!important;
     padding-bottom: 24px;
 }
@@ -77,6 +77,9 @@
 }
 
 @media (max-width: 876px) {
+    .vitamina-section{
+        margin-top: 0px;
+    }
     .vitamina-image {
         background-size: 200% 100%;
         background-position-x: left;
@@ -89,6 +92,7 @@
     .section-intro {
         background-color: rgba(255, 255, 255, 0.5);
         border-radius: 20px;
-        margin-bottom: 26px;
+        margin: 116px 1rem 26px;
+
     }
 }

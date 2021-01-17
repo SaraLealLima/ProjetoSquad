@@ -13,9 +13,9 @@
     $email = $_POST['emailInput'];
     $sql = "SELECT * FROM cadastro";
     $resultado = mysqli_query($conexao, $sql);
-    $cpfValido = true;
+    $emailValido = true;
     while ($linha = mysqli_fetch_assoc($resultado)){
-        if($linha ['email'] == $email){
+        if($linha['email'] == $email){
             $emailValido = false;
         }
      }

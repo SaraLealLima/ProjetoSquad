@@ -172,6 +172,7 @@ footer p {
 }
 @media (max-width: 876px) {
     .navbar-blur{
+        z-index: 1001;
         position: fixed;
     }
     .navbar .nav-link1 {
