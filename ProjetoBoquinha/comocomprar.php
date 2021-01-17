@@ -48,7 +48,7 @@
                             ?>
                                 <li class="list-group-item border-0">
                                     <div class="row py-3 justify-content-center">
-                                        <div class="col-xs-12 col-sm-2 align-self-center">
+                                        <div class="col-xs-12 col-sm-3 align-self-center">
                                             <img class="w-100 p-2 p-ms-0" src="<?php echo "./images/" . $alimento["imagem"] ?>" alt="<?php echo $alimento["nome_alimento"] ?>">
                                         </div>
                                         <div class="p-3 p-sm-0 col-xs-12 col-sm-2 align-self-center text-center"><strong><?php echo $alimento["nome_alimento"] ?></strong></div>
