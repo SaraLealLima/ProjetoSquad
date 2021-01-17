@@ -170,20 +170,16 @@ footer {
 footer p {
     margin-bottom: 0;
 }
-<<<<<<< HEAD
 
 .link-sobre {
     font-size: 20px;
-    color: rgb(135, 235, 95)
+    color:rgb(255, 144, 82)
 }
-a:hover {
-    color: rgb(159, 255, 122);
+.link-sobre:hover {
+    color: rgb(255, 168, 117);
 }
 
 @media (max-width: 876px) {
-=======
-@media (max-width: 991px) {
->>>>>>> d19bf0c6d5ea1d9c6db4c0162a6913bafcb70365
     .navbar-blur{
         z-index: 1001;
         position: fixed;
