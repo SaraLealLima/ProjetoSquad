@@ -89,6 +89,15 @@
             </div>
         </section>
 
+        <section class="section-fontes container ml-0 mr-0 mt-0 mb-5">
+            <div class="ml-4">
+                <p>Fontes</p>
+                <p class="my-0"> <a href="http://forc.webhostusp.sti.usp.br/forc/arquivos/paginas/Cartilha%20-%20Covid-19.pdf" target="_blank">http://forc.webhostusp.sti.usp.br/forc/arquivos/paginas/Cartilha%20-%20Covid-19.pdf</a> </p>
+                <p class="my-0"> <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/assistencia_social/arquivos/arte_final/manual_de_nutricao.pdf" target="_blank">https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/assistencia_social/arquivos/arte_final/manual_de_nutricao.pdf</a> </p>
+            
+            </div>
+        </section>
+
         
     </main>
 
