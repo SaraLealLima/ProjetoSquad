@@ -19,6 +19,7 @@
 <body>
     <header>
         <?php require("php/header.php")?>
+        <?php include("php/logado.php") ?>
     </header>
 
     <main>

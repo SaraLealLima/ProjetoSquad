@@ -39,7 +39,7 @@ if ($logado) {
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="comocomprar.php">Como Comprar</a>
-                <a class="dropdown-item" href="#">Como Higienizar e Armazenar</a>
+                <a class="dropdown-item" href="comohigienizar.php">Como Higienizar e Armazenar</a>
                 <a class="dropdown-item" href="mineraisvitaminas.php">Vitaminas e Minerais </a>
                 </div>
             </li>
