@@ -7,6 +7,7 @@
     //DATA
 
 
+    
 ?>
 
 <!DOCTYPE html>
@@ -33,7 +34,11 @@
 <body>
     <!-- Barra de navegação -->
     <?php require("php/header.php")?>
-
+    <?php 
+    //Cadastro Criança
+    require('./php/perfil/inserir.php');
+    //Cadastro Criança
+    ?>
     <?php include("php/logado.php") ?>
     <main class="container-fluid mx-0 px-0">
     
@@ -51,21 +56,21 @@
 
                 <h1 class="display-4">Por favor, preencha os campos abaixo.</h1>
 
-                <form action="" method="">
+                <form action="" method="POST">
                   <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input type="nome" class="form-control" id="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome">
+                    <input type="nome" class="form-control" name="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome">
                   </div>
                   <div class="form-group">
                     <label for="genero" class="d-block">Gênero</label>
                     <div class="form-check d-inline">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="radio" value="masculino">
+                        <input class="form-check-input" type="radio" name="sexo" id="radio" value="masculino">
                         <label class="form-check-label" for="radio">
                             Masculino
                         </label>
                     </div>
                     <div class="form-check d-inline">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="radio2" value="feminino" checked>
+                        <input class="form-check-input" type="radio" name="sexo" id="radio2" value="feminino" checked>
                         <label class="form-check-label" for="radio2">
                             Feminino
                         </label>
@@ -73,16 +78,18 @@
                   </div>
                   <div class="form-group">
                     <label for="idade">Idade</label>
-                    <input type="number" class="form-control" id="idade" placeholder="Idade">
+                    <input type="number" class="form-control" name="idade" placeholder="Idade">
                   </div>
                   <div class="form-group">
                     <label for="peso">Peso</label>
-                    <input type="number" class="form-control" id="peso" placeholder="Peso">
+                    <input type="number" class="form-control" name="peso" placeholder="Peso">
                   </div>
                   <div class="form-group">
                     <label for="altura">Altura (Ex: 110)</label>
-                    <input type="number" class="form-control" id="altura" placeholder="Altura">
+                    <input type="number" class="form-control" name="altura" placeholder="Altura">
                   </div>
+                  <input type="hidden" name="datas" value=<?php echo $data ?>>
+                  <input type="hidden" name='imc' value=<?php echo 15 ?>>
                   <button type="submit" class="btn btn-primary btn-lg">Adicionar</button>
                 </form>
 
@@ -94,14 +101,22 @@
 
             <div id="defaultOpen" class="pagina">
                 <div id="accordion">
+                    <?php 
+                        $id_cadastro = $_SESSION['id'];
+                        $sql = "SELECT * FROM crianca WHERE id_cadastro = $id_cadastro";
+                        $resultado = mysqli_query($conexao, $sql);
+                        $repeticao = 0;
+                        while($dados = $resultado -> fetch_array()){
+                      ?>
                     <div class="card border-top-0">
                       <div class="card-header">
-                        <a class="card-link" data-toggle="collapse" href="#collapse<?php echo 'one'?>">
-                          Nome da Criança
+                        <a class="card-link" data-toggle="collapse" href="#collapse<?php echo $dados['id_crianca']?>">
+                          <?php echo $dados['nome'] ?>
                         </a>
                         <div class="criança-ultimo-update d-lg-inline d-none">Ultima Atualização: <?php echo $data; ?></div>
                       </div>
-                      <div id="collapse<?php echo 'one'?>" class="collapse show" data-parent="#accordion">
+                      <div id="collapse<?php echo $dados['id_crianca']?>" class="collapse <?php echo $repeticao == 0 ? "show" : ""?>" data-parent="#accordion">
+                      
                         <div class="card-body pt-0 px-0 custom-scroll">
                             <table class="table table-striped">
                                 <thead>
@@ -114,64 +129,71 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php 
+                                        $id_dados_crianca = $dados['id_crianca'];
+                                        $sql = "SELECT * FROM dados_crianca WHERE id_dados_crianca = $id_dados_crianca";
+                                        $resultado2 = mysqli_query($conexao, $sql);
+                                        while($dados2 = $resultado2 -> fetch_array()){
+                                    ?>
                                     <tr>
                                         <td>
-                                            24
+                                            <?php echo $dados2['idade'] ?>
                                         </td>
                                         <td>
-                                            97
+                                            <?php echo $dados2['peso'] ?>
                                         </td>
                                         <td>
-                                            186
+                                            <?php echo $dados2['altura'] ?>
                                         </td>
                                         <td>
-                                            15
+                                            <?php echo $dados2['imc'] ?>
                                         </td>
                                         <td>
-                                            19/01/2021
+                                            <?php echo $dados2['datas'] ?>
                                         </td>
                                     </tr>
-                                    <tr>
+                                   <?php } ?>
+                                   <tr>
                                         <td>
-                                            24
+                                            <form method="POST" action="">
+                                                <input type='hidden' name=<?php echo "atualizar".$dados2['id'] ?> value=<?php echo $dados2['id'] ?> />
+                                                <input type='number' name='idade' value=""/>
                                         </td>
                                         <td>
-                                            97
+                                            <input type='number' name='peso' value=""/>
                                         </td>
                                         <td>
-                                            186
+                                            <input type='number' name='altura' value=""/>
                                         </td>
                                         <td>
-                                            15
+                                            <input type='number' name='imc' value=""/>
                                         </td>
                                         <td>
-                                            19/01/2021
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            24
+                                            <input type='hidden' name='datas' value=<?php echo $dados2['datas'] ?>/>
                                         </td>
                                         <td>
-                                            97
+                                                <button type="submit">ADD</button>
+                                            </form>
                                         </td>
-                                        <td>
-                                            186
+                                            
+                                            <?php 
+                                                $id = $dados2['id'];
+                                                require('php/perfil/inserirAtualizacao.php') 
+                                            ?>
                                         </td>
-                                        <td>
-                                            15
-                                        </td>
-                                        <td>
-                                            19/01/2021
-                                        </td>
-                                    </tr>
+                                   </tr>
                                 </tbody>
                             </table>
                         </div>
                       </div>
                     </div>
+                    <?php 
+                        $repeticao++;
+                        } 
+                    ?>
                 </div>
             </div>
+           
 
 
             </div>
@@ -179,7 +201,7 @@
         </div>
         
     </main>
-
+    <button class="navbar-botao ml-5 mr-4 <?php echo $displayLogado ?>" onclick="window.location.href='php/logout.php'">SAIR</button>
     
     <?php require('./php/footer.php') ?>
     <script>

@@ -18,6 +18,7 @@
                     echo "SUCESSO! #gugu";
                     session_start();
                     $_SESSION['dados'] = $linha;
+                    $_SESSION['id'] = $linha['id_cadastro'];
                     /* Para chamar os dados em outra pagina agora é só fazer: $_SESSION['dados']['nome_da_coluna'] */
                     /* Colunas da tabela cadastro: id_cadastro, email, senha, nome e telefone*/
                     header("Location: index.php");
