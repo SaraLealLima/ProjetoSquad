@@ -31,7 +31,7 @@
 
         <section class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-xs-12 col-sm-8 m-sm-5 p-sm-5 m-3 text-center texto-higi">
+                <div class="col-xs-12 col-sm-8 m-sm-5 p-sm-5 m-3 text-center texto-higi cards-principais">
                     <h2 class="titulo-laranja">Higienização</h2>
                     <p lead>A higienização é divida em duas etapas: limpeza e desinfecção.
                     A limpeza consiste na remoção de terra, resíduos de alimentos, sujidades e/ou outras substâncias indesejáveis.
@@ -42,9 +42,9 @@
             </div>
         </section>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-xs-12 col-10 texto-higi">
+        <section class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-8 m-3 p-sm-5 texto-higi cards-principais">
                     <h3 class="titulo-azul">Limpeza</h3>
                     <p><strong><spam class="texto-verde">Embalagens rígidas:</spam></strong> podem ser lavadas com água e sabão ou limpas com pano umedecido com álcool 70% ou solução clorada.</p>
                     <p><strong><spam class="texto-verde">Embalagens flexíveis:</spam> </strong>podem ser limpas com pano umedecido com álcool 70% ou solução clorada.</p> <br>
@@ -71,7 +71,7 @@
 
         <section class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-xs-12 col-sm-8 m-sm-5 p-sm-5 m-3 text-center texto-higi">
+                <div class="col-xs-12 col-sm-8 m-sm-5 p-sm-5 m-3 text-center texto-higi cards-principais">
                     <h2 class="titulo-laranja">Armazenamento</h2>
                     <p lead>O armazenamento é um conjunto de procedimentos e requisitos para se obter a adequada conservação dos alimentos e a preservação de sua qualidade até o momento de serem preparados.  Os cuidados vão depender do tipo de alimento que se deseja guardar, a fim de permitir o maior aproveitamento dos produtos. Os alimentos têm características particulares que devem ser observadas na hora de seu armazenamento, sendo classificados em não-perecíveis, perecíveis e semiperecíveis. 
                     </p>
@@ -79,9 +79,9 @@
             </div>
         </section>
 
-        <section class="container">
-            <div class="row">
-                <div class="col-xs-12 col-10 texto-higi">
+        <section class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xs-12 col-sm-8 mb-5 m-3 p-sm-5 texto-higi cards-principais">
                     <h3 class="titulo-azul">Como conservar os alimentos</h3>
                     <p><strong><spam class="texto-verde">Alimentos não perecíveis</spam></strong>  (arroz, milho, feijão, farinhas em geral, óleos, açúcar, sal, leite em pó e alguns tipos de frutas, verduras e legumes) devem ser armazenados em local seco e arejados, em temperatura ambiente e longe de raios solares.</p>
                     <p><strong><spam class="texto-verde">Perecíveis </spam> </strong> (alimentos que estragam com maior facilidade) devem ser mantidos sob refrigeração (carnes, ovos, leite, queijos, manteiga e a maioria das frutas, verduras e legumes) ou congelamento (carnes cruas, preparações culinárias, como o feijão já cozido). Preparações culinárias guardadas para a próxima refeição devem ser armazenadas sob refrigeração.</p> <br>
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <section class="section-fontes container ml-0 mr-0 mt-0 mb-5">
+        <section class="section-fontes container ml-sm-0 mr-sm-0 mt-5 mb-5">
             <div class="ml-4">
                 <p>Fontes</p>
                 <p class="my-0"> <a href="http://forc.webhostusp.sti.usp.br/forc/arquivos/paginas/Cartilha%20-%20Covid-19.pdf" target="_blank">http://forc.webhostusp.sti.usp.br/forc/arquivos/paginas/Cartilha%20-%20Covid-19.pdf</a> </p>
