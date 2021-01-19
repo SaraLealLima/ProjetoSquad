@@ -1,0 +1,93 @@
+main{
+    width: 95%;
+    min-height: 120vh;
+    position: relative;
+    float: left;
+    margin-top: -96px;
+    padding-bottom: 25px;
+    background-image: url('./images/baloes-perfil.jpg');
+    background-repeat: repeat;
+}
+.perfil-main-box{
+    background-color: rgb(0, 166, 255);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.274);
+    border-radius: 20px;
+    position: relative;
+    margin: auto;
+    margin-top: 136px;
+    padding-bottom: 10px;
+    width: 95%;
+    min-height: 95vh;
+}
+.perfil-main-header{
+    margin: 10px 25px;
+}
+.perfil-main-header h2{
+    margin-top: 10px;
+    color: white;
+}
+.perfil-main-header h4{
+    text-align: right;
+    margin-top: 10px;
+    color: white;
+}
+.perfil-main-header button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 0;
+    transition: 1s all;;
+}
+.perfil-main-header button:hover{
+
+    color: black;
+}
+.perfil-main-header-plus{
+    font-size: 35px;
+    display: inline;
+}
+.criança-ultimo-update{
+    display: inline;
+    float: right;
+}
+.card-body{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.custom-scroll::-webkit-scrollbar
+{
+  width: 12px;
+  background-color: #f5f5f5;
+  margin-right: 12px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  background-color: rgb(58, 184, 251);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+  
+  /* Handle on hover */
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(255, 255, 255);
+  }
+@media screen and (max-width: 876px) {
+    .perfil-main-box{
+        position: relative;
+        margin: auto;
+        margin-top: 228px;
+        width: 95%;
+        height: 80vh;
+    }
+}

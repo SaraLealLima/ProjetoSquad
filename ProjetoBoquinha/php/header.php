@@ -34,7 +34,7 @@ if ($logado) {
             <a href="obesidadeinfantil.php" class="nav-link1 nav-item underline-red <?php $navDeslogado ?>">Obesidade infantil</a>
             <!-- <a href="#" class="nav-link1 nav-item underline-blue <?php $navDeslogado ?>">Cardápio</a> -->
             <li class="nav-item nav-link1 underline-blue dropdown">
-                <a class="nav-link1 nav-item dropdown-toggle <?php $navDeslogado ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link1 nav-item dropdown-toggle <?php $navDeslogado ?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Alimentos
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -49,7 +49,7 @@ if ($logado) {
             <!--  Deslogado/Não Cadastrado -->
             <button class="navbar-botao ml-5 mr-4 <?php echo $displayDeslogado ?>"> <!-- <a class="btn-cadastro-link" href="cadastro.php">Cadastre-se</a>/--><a class="btn-entre-link" href="login.php">Entrar</a></button>
             <!-- Logado -->
-            <button class="navbar-botao ml-5 mr-4 <?php echo $displayLogado ?>" onclick="window.location.href='php/logout.php'">Sair</button>
+            <button class="navbar-botao ml-5 mr-4 <?php echo $displayLogado ?>" onclick="window.location.href='perfil.php'">Perfil</button>
         </div>
        
     </div>

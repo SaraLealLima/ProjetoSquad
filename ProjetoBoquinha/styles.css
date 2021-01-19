@@ -179,7 +179,7 @@ footer p {
     color: rgb(255, 168, 117);
 }
 
-@media (max-width: 876px) {
+@media (max-width: 990px) {
     .navbar-blur{
         z-index: 1001;
         position: fixed;

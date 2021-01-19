@@ -50,7 +50,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Cosmo Amaro</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/cosmoamaro-psicologo/" class="btn btn-outline-success">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/cosmoamaro-psicologo/" class="btn btn-outline-success" target="_blank">LinkedIn</a>
                             </div>
                         </div>
     
@@ -59,7 +59,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Diego Carmo</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/diego-carmo-83a55552/" class="btn btn-outline-danger">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/diego-carmo-83a55552/" class="btn btn-outline-danger" target="_blank">LinkedIn</a>
                             </div>
                         </div>
     
@@ -68,7 +68,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Rafael Amaral</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/rafaelamaral98/" class="btn btn-outline-primary">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/rafaelamaral98/" class="btn btn-outline-primary" target="_blank">LinkedIn</a>
                             </div>
                         </div>
 
@@ -77,7 +77,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Samanta Antonio</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/samanta-antonio/" class="btn btn-outline-success">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/samanta-antonio/" class="btn btn-outline-success" target="_blank">LinkedIn</a>
                             </div>
                         </div>
 
@@ -86,7 +86,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Sara Leal Lima</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/sara-leal-lima/" class="btn btn-outline-danger">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/sara-leal-lima/" class="btn btn-outline-danger" target="_blank">LinkedIn</a>
                             </div>
                         </div>
 
@@ -95,7 +95,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Vinicius Brito</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
-                                <a href="https://www.linkedin.com/in/vin%C3%ADcius-brito-costa-150b9b158/" class="btn btn-outline-primary">LinkedIn</a>
+                                <a href="https://www.linkedin.com/in/vin%C3%ADcius-brito-costa-150b9b158/" class="btn btn-outline-primary" target="_blank">LinkedIn</a>
                             </div>
                         </div>
                     </div>
