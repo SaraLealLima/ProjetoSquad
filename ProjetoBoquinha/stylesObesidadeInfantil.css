@@ -136,7 +136,7 @@ body {
     margin-top: 130px;
 }
 
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 990px) {
     .img-principal{
         height: 175vh;
 

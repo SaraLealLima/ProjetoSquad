@@ -92,7 +92,7 @@ body {
     }
 }
 
-  @media screen and (max-width: 876px) {
+  @media screen and (max-width: 990px) {
 	body {
 		background-size: cover;
         background-position: 50%;
