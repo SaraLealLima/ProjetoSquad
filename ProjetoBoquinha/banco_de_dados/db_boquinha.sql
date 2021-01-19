@@ -124,7 +124,26 @@ LOCK TABLES `sucos` WRITE;
 /*!40000 ALTER TABLE `sucos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
+CREATE TABLE crianca (
+  id_crianca INT NOT NULL AUTO_INCREMENT,
+  id_cadastro INT NOT NULL,
+  nome VARCHAR(45) NOT NULL,
+  sexo VARCHAR(15) NOT NULL,
+  PRIMARY KEY (id_crianca),
+  FOREIGN KEY (id_cadastro) REFERENCES cadastro (id_cadastro)
+);
+  
+CREATE TABLE dados_crianca (
+  id INT NOT NULL AUTO_INCREMENT,
+  id_dados_crianca INT NOT NULL,
+  idade INT NOT NULL,
+  peso INT NOT NULL,
+  altura INT NOT NULL,
+  imc INT NOT NULL,
+  datas TEXT NOT NULL,
+  PRIMARY KEY (id),
+  FOREIGN KEY (id_dados_crianca) REFERENCES crianca (id_crianca)
+);
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;

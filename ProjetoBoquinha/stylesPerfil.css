@@ -48,6 +48,9 @@ main{
 .tablinks{
     background-color: rgb(172, 172, 172);
 }
+.pagina{
+    color: white;
+}
 .perfil-main-adicionar{
     min-height: 20px;
     border-top-left-radius: 20px;
