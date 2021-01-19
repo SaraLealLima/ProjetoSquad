@@ -30,6 +30,7 @@
                                     alert('Errou a senha')
                                 }, 1000);
                             </script>";
+                    break;
                 }
             } 
             else 
@@ -40,6 +41,7 @@
                                 alert('Errou o email')
                             }, 1000);
                         </script>";
+                        break;
             }
         }
     }
