@@ -21,28 +21,55 @@ main{
     min-height: 95vh;
 }
 .perfil-main-header{
+    display: inline-flex;
     margin: 10px 25px;
-}
-.perfil-main-header h2{
-    margin-top: 10px;
-    color: white;
+    margin-bottom: 0;
 }
 .perfil-main-header h4{
     text-align: right;
     margin-top: 10px;
+    margin-bottom: 0;
     color: white;
 }
 .perfil-main-header button{
-    background-color: transparent;
     border: none;
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 0;
-    transition: 1s all;;
+    height: 50px;
 }
-.perfil-main-header button:hover{
-
+.perfil-main-header button.active{
+    outline: none;
+}
+.perfil-main-header button.focus{
+    outline: none;
+}
+.tablinks{
+    background-color: rgb(172, 172, 172);
+}
+.perfil-main-adicionar{
+    min-height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.perfil-main-adicionar.active{
+    background-color: orange;
+    color: white;
+}
+.perfil-main-dados{
+    min-height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:black;
+}
+.perfil-main-dados.active{
+    background-color:#f7f7f7;
     color: black;
 }
+
+
 .perfil-main-header-plus{
     font-size: 35px;
     display: inline;
@@ -54,6 +81,9 @@ main{
 .card-body{
     max-height: 200px;
     overflow-y: scroll;
+}
+#adicionar-crianca{
+    background-color: orange;
 }
 
 /* Track */
@@ -82,12 +112,15 @@ main{
 .card-body::-webkit-scrollbar-thumb:hover {
     background-color: rgb(255, 255, 255);
   }
-@media screen and (max-width: 876px) {
+@media screen and (max-width: 990px) {
     .perfil-main-box{
-        position: relative;
         margin: auto;
         margin-top: 228px;
         width: 95%;
-        height: 80vh;
+        min-height: 80vh;
+    }
+    .perfil-main-header button{
+        height: 70px;
+        
     }
 }
