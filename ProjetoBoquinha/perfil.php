@@ -40,7 +40,10 @@
     
         <div class="perfil-main-box">
 
-
+            <div class="mt-2 mx-4">
+                <h2>Paragrafo explicando oque vai acontecer nessa parada.</h2>
+                <p>Texto introdutorio</p>
+            </div>
 
             <div class="perfil-main-header">
                 <h4><button class="perfil-main-dados tablinks pt-2" id='defaultOpenClick' onclick="openTab(event, 'defaultOpen')">Crianças</button></h4>
@@ -182,7 +185,7 @@
                         <input type="number" class="form-control" name="peso" placeholder="Peso">
                       </div>
                       <div class="form-group">
-                        <label for="altura">Altura (Ex: 110)</label>
+                        <label for="altura">Altura em centimetros (Ex: 110)</label>
                         <input type="number" class="form-control" name="altura" placeholder="Altura">
                       </div>
                       <input type="hidden" name="datas" value=<?php echo $data ?>>
