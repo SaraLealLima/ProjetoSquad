@@ -6,7 +6,7 @@
     $data = utf8_encode($date);
     //DATA
     require('php/perfil/calcularimc.php');
-
+    require("php/conexao.php");
     
 ?>
 
@@ -34,11 +34,7 @@
 <body>
     <!-- Barra de navegação -->
     <?php require("php/header.php")?>
-    <?php 
-    //Cadastro Criança
-    require('./php/perfil/inserir.php');
-    //Cadastro Criança
-    ?>
+
     <?php include("php/logado.php") ?>
     <main class="container-fluid mx-0 px-0">
     
@@ -109,7 +105,7 @@
                                                 <?php echo $dados2['altura'] ?>
                                             </td>
                                             <td>
-                                                <?php echo MensagemIMC($dados2['imc'], $dados['sexo']) ?>
+                                                <?php echo MensagemIMC(IMC($dados2['peso'], $dados2['altura']), $dados['sexo']) ?>
                                             </td>
                                             <td>
                                                 <?php echo $dados2['datas'] ?>
@@ -123,13 +119,13 @@
                                             <form method="POST" action="php/perfil/inserirAtualizacao.php">
                                             <td>
                                                 <input type='hidden' name='id' value=<?php echo $id_dados_crianca ?> />
-                                                <input type='number' name='idade' value=""/>
+                                                <input class="rounded border-0" type='number' name='idade' value="" placeholder="Idade"/>
                                             </td>
                                             <td>
-                                                <input type='number' name='peso' value=""/>
+                                                <input class="rounded border-0" type='number' name='peso' value="" placeholder="Peso"/>
                                             </td>
                                             <td>
-                                                <input type='number' name='altura' value=""/>
+                                                <input class="rounded border-0" type='number' name='altura' value="" placeholder="Altura"/>
                                             </td>
                                             <td>
                                                 &nbsp;
@@ -157,7 +153,7 @@
 
                     <h1 class="display-4">Por favor, preencha os campos abaixo.</h1>
 
-                    <form action="" method="POST">
+                    <form action="php/perfil/inserir.php" method="POST">
                       <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="nome" class="form-control" name="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome">
@@ -190,7 +186,6 @@
                         <input type="number" class="form-control" name="altura" placeholder="Altura">
                       </div>
                       <input type="hidden" name="datas" value=<?php echo $data ?>>
-                      <input type="hidden" name='imc' value=<?php echo 15 ?>>
                       <button type="submit" class="btn btn-primary btn-lg">Adicionar</button>
                     </form>
 
