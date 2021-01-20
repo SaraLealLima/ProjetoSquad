@@ -57,6 +57,7 @@
                         <?php 
                             $id_cadastro = $_SESSION['id'];
                             $sql = "SELECT * FROM crianca WHERE id_cadastro = $id_cadastro";
+                            //$sql = "SELECT * FROM crianca JOIN dados_crianca ON crianca.id_crianca = dados_crianca.id_dados_crianca WHERE id_cadastro = $id_cadastro";
                             $resultado = mysqli_query($conexao, $sql);
                             $repeticao = 0;
                             $criancas[] = [];
@@ -88,7 +89,8 @@
                                     <tbody>
                                         <?php 
                                             $id_dados_crianca = $dados['id_crianca'];
-                                            $sql = "SELECT * FROM dados_crianca WHERE id_dados_crianca = $id_dados_crianca ORDER BY id DESC";
+                                            //$sql = "SELECT * FROM dados_crianca WHERE id_dados_crianca = $id_dados_crianca ORDER BY id DESC";
+                                            $sql = "SELECT * FROM crianca JOIN dados_crianca ON crianca.id_crianca = dados_crianca.id_dados_crianca WHERE id_dados_crianca = $id_dados_crianca ORDER BY id DESC";
                                             $resultado2 = mysqli_query($conexao, $sql);
                                             $id= 0;
                                             $repeticao2 = 0;
@@ -108,7 +110,7 @@
                                                 <?php echo $dados2['altura'] ?>
                                             </td>
                                             <td>
-                                                <?php echo MensagemIMC(IMC($dados2['peso'], $dados2['altura']), $dados['sexo']) ?>
+                                                <?php echo MensagemIMC(IMC($dados2['peso'], $dados2['altura']), $dados2['sexo']) ?>
                                             </td>
                                             <td>
                                                 <?php echo $dados2['datas'] ?>

@@ -5,7 +5,7 @@
         $sobrepeso      = 18.0;
         $imc_formatado  = number_format($imc, 2);
         $mensagem       = "Obesidade. IMC: ".$imc_formatado;
-        if($sexo == "menina"){
+        if($sexo == "feminino"){
             $baixo      = 11.6;
             $adequado   = 16.1;
             $sobrepeso  = 17.6;
