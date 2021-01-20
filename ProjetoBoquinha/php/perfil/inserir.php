@@ -1,6 +1,6 @@
 <?php
-
-    include_once("php/conexao.php");
+    session_start(); 
+    include_once("../conexao.php");
 
     //Arquivo de conexão com o furmulario de cadastro
 
@@ -16,7 +16,6 @@
 
         $sexo = $_POST['sexo'];
 
-        $imc = intval($_POST['imc']);
 
         $datas = $_POST['datas'];
 
@@ -24,16 +23,9 @@
 
         $resultado2 = "INSERT INTO crianca (id_cadastro, nome, sexo) VALUES ('$id_cadastro', '$nome', '$sexo');";
         mysqli_query($conexao, $resultado2);
+        $mysqli = mysqli_insert_id($conexao);
 
-        $resultado3 = "SELECT * FROM crianca WHERE id_cadastro = $id_cadastro;";
-        $id = mysqli_query($conexao, $resultado3);
-        $id_resultado = 0;
-        while($dados= $id -> fetch_array()){
-            $id_resultado = $dados['id_crianca'];
-        }
-        print_r ($id_resultado);
-
-        $resultado = "INSERT INTO dados_crianca (id_dados_crianca, idade, peso, altura, imc, datas) VALUES('$id_resultado','$idade', '$peso', '$altura','$imc', now());"; 
+        $resultado = "INSERT INTO dados_crianca (id_dados_crianca, idade, peso, altura, datas) VALUES('$mysqli','$idade', '$peso', '$altura', now());"; 
         mysqli_query($conexao, $resultado);
     };
 
@@ -52,4 +44,5 @@
     $consultar = "SELECT * FROM dados_crianca";
     mysqli_query($conexao, $consultar);
     $_POST = array();
+    header('Location: ' . $_SERVER['HTTP_REFERER']);
 ?>

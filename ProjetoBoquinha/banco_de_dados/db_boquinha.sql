@@ -139,7 +139,6 @@ CREATE TABLE dados_crianca (
   idade INT NOT NULL,
   peso INT NOT NULL,
   altura INT NOT NULL,
-  imc INT NOT NULL,
   datas TEXT NOT NULL,
   PRIMARY KEY (id),
   FOREIGN KEY (id_dados_crianca) REFERENCES crianca (id_crianca)
