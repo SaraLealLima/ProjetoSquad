@@ -8,18 +8,15 @@ if (!empty($_GET['id'])){
     if(mysqli_affected_rows($conexao)) {
         $_SESSION['msg'] = "<p style = 'color:green;'> Dados deletados com sucesso!</p>";
         header('Location: ' . $_SERVER['HTTP_REFERER']);
-
-    }else {
-
+    }
+    else {
         $_SESSION['msg'] = "<p style = 'color:red;'> Erro! Os dados não foram deletados.</p>";
         header('Location: ' . $_SERVER['HTTP_REFERER']);
     }
-
-}else {
-    
+}
+else {
         $_SESSION['msg'] = "<p style = 'color:red;'> Erro! É necessário selecionar os dados a serem deletados.</p>";
         header('Location: ' . $_SERVER['HTTP_REFERER']);
-
 }
 
 ?>
