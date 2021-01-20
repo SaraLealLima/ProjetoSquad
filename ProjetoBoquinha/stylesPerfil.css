@@ -8,16 +8,21 @@ main{
     background-image: url('./images/baloes-perfil.jpg');
     background-repeat: repeat;
 }
+
+.texto-instrucional{
+    font-size: 20px;
+}
+
 .perfil-main-box{
     background-color: rgba(216, 216, 216, 0.589);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(8px);
     border: 1px solid rgba(255, 255, 255, 0.274);
     border-radius: 20px;
     position: relative;
     margin: auto;
     margin-top: 136px;
     padding-bottom: 10px;
-    width: 95%;
+    width: 85%;
     min-height: 95vh;
 }
 .perfil-main-header{
