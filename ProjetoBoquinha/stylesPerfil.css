@@ -9,7 +9,7 @@ main{
     background-repeat: repeat;
 }
 .perfil-main-box{
-    background-color: rgb(0, 166, 255);
+    background-color: rgba(216, 216, 216, 0.589);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.274);
     border-radius: 20px;
@@ -51,6 +51,16 @@ main{
 .pagina{
     color: white;
 }
+.perfil-main-remover{
+    min-height: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.perfil-main-remover.active{
+    background-color: orange;
+    color: white;
+}
 .perfil-main-adicionar{
     min-height: 20px;
     border-top-left-radius: 20px;
@@ -58,7 +68,7 @@ main{
     
 }
 .perfil-main-adicionar.active{
-    background-color: orange;
+    background-color: #28a745;
     color: white;
 }
 .perfil-main-dados{
@@ -85,8 +95,11 @@ main{
     max-height: 200px;
     overflow-y: scroll;
 }
-#adicionar-crianca{
+#remover-crianca{
     background-color: orange;
+}
+#adicionar-crianca{
+    background-color:#28a745;
 }
 
 /* Track */

@@ -51,4 +51,5 @@
 
     $consultar = "SELECT * FROM dados_crianca";
     mysqli_query($conexao, $consultar);
+    $_POST = array();
 ?>
