@@ -1,6 +1,6 @@
 <?php
     require('../conexao.php');
-    require('calcularimc.php');
+    require('calcularImc.php');
     //Arquivo de conexão com o formulario de atualização (atualizar.php)
     if(!empty($_POST['idade']) && !empty($_POST['peso']) && !empty($_POST['altura'])){
 

@@ -7,43 +7,34 @@
     $post_iniciado = (isset($_POST['emailinput']) && isset($_POST['senhainput'])) ? true : false;
     $post_preenchido = (!empty($_POST['emailinput']) && !empty($_POST['senhainput'])) ? true : false;
     if ($post_iniciado && $post_preenchido) {
-    
-        $sql = "SELECT * FROM cadastro";
+        $email = $_POST['emailinput'];
+        $senha = $_POST['senhainput'];
+        $sql = "SELECT * FROM cadastro WHERE email = '$email'";
         $inquerir = mysqli_query($conexao, $sql);
-    
-        while ($linha = mysqli_fetch_assoc($inquerir)) {
-            if ($linha['email'] == $_POST['emailinput']) {
-                if ($linha['senha'] == $_POST['senhainput']) {
-                    /* Login feito com sucesso */
-                    echo "SUCESSO! #gugu";
-                    session_start();
-                    $_SESSION['dados'] = $linha;
-                    $_SESSION['id'] = $linha['id_cadastro'];
-                    /* Para chamar os dados em outra pagina agora é só fazer: $_SESSION['dados']['nome_da_coluna'] */
-                    /* Colunas da tabela cadastro: id_cadastro, email, senha, nome e telefone*/
-                    header("Location: index.php");
-                } 
-                else 
-                {
-                    /* Exibir mensagem de senha invalida */
-                    echo "  <script defer>
-                                setTimeout(function(){
-                                    alert('Errou a senha')
-                                }, 1000);
-                            </script>";
-                    break;
-                }
-            } 
+        $resultado = $inquerir -> fetch_assoc();
+        if($resultado){
+            if($resultado['senha'] == $senha){
+                 session_start();
+                 $_SESSION['dados'] = $resultado;
+                 $_SESSION['id'] = $resultado['id_cadastro'];
+                 header("Location: index.php");
+            }
             else 
             {
-                /* Exibir mensagem de email invalido */
-                echo "  <script defer>
+                echo " <script defer>
                             setTimeout(function(){
-                                alert('Errou o email')
+                                alert('A senha está incorreta')
                             }, 1000);
                         </script>";
-                        break;
-            }
+            }            
+        }
+        else 
+        {
+            echo " <script defer>
+                        setTimeout(function(){
+                            alert('O email está incorreto".$email."')
+                        }, 1000);
+                    </script>";
         }
     }
 ?>

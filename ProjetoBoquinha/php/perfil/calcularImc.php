@@ -3,7 +3,7 @@
         $baixo          = 12.0;
         $adequado       = 16.5;
         $sobrepeso      = 18.0;
-        $imc_formatado  = number_format($imc, 2);
+        $imc_formatado  = number_format(floatval($imc), 2);
         $mensagem       = "Obesidade. IMC: ".$imc_formatado;
         if($sexo == "feminino"){
             $baixo      = 11.6;
@@ -23,11 +23,11 @@
         return $mensagem;
     }
     function IMC($peso, $alt){
-        $altura     = $alt / 100;
+        $altura     = floatval($alt) / 100;
         $baixo      = 12.0;
         $adequado   = 16.5;
         $sobrepeso  = 18.0;
-        $imc        = $peso / ($altura ** 2);
+        $imc        = floatval($peso) / ($altura ** 2);
         
         return $imc;
     }

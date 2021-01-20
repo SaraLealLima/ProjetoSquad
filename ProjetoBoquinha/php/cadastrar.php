@@ -21,16 +21,13 @@
      }
     
     if($senhaIgual && $emailValido){
-
-   {
-        $senha= $_POST['senhaInput'];
-        
-        $sql = "INSERT INTO cadastro VALUES (NULL, '$email', '$senha');";
-        mysqli_query($conexao, $sql);
-
-        header("location: ../index.php");
-    
-    }
+       {
+            $senha= $_POST['senhaInput'];
+            $query = $conexao->prepare("INSERT INTO cadastro (email, senha) VALUES (?, ?)");
+            $query -> bind_param("ss", $email, $senha);
+            $query -> execute();
+            header("location: ../login.php");
+        }
 
     }
 

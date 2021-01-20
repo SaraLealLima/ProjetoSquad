@@ -5,7 +5,7 @@
     $date = strftime('%A, %d de %B de %Y', strtotime('today'));
     $data = utf8_encode($date);
     //DATA
-    require('php/perfil/calcularimc.php');
+    require('php/perfil/calcularImc.php');
     require("php/conexao.php");
     
 ?>
