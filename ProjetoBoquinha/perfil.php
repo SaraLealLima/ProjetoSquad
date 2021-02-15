@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylesPerfil.css">
-    <script src="script.js"></script>
+    <script src="validacao2.js"></script>
 
     <title>Boquinha — Perfil</title>
 
@@ -165,7 +165,7 @@
                         <form action="php/perfil/inserir.php" method="POST">
                           <div class="form-group">
                             <label for="nome">Nome</label>
-                            <input type="nome" class="form-control" name="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome">
+                            <input type="nome" class="form-control" name="nome" id="nome" aria-describedby="nomeHelp" placeholder="Digite seu nome">
                           </div>
                           <div class="form-group">
                             <label for="genero" class="d-block">Gênero</label>
@@ -184,18 +184,18 @@
                           </div>
                           <div class="form-group">
                             <label for="idade">Idade</label>
-                            <input type="number" class="form-control" name="idade" placeholder="Idade">
+                            <input type="number" class="form-control" name="idade" id='idade' placeholder="Idade">
                           </div>
                           <div class="form-group">
                             <label for="peso">Peso</label>
-                            <input type="number" class="form-control" name="peso" placeholder="Peso">
+                            <input type="number" class="form-control" name="peso" id='peso' placeholder="Peso">
                           </div>
                           <div class="form-group">
                             <label for="altura">Altura em centimetros (Ex: 110)</label>
-                            <input type="number" class="form-control" name="altura" placeholder="Altura">
+                            <input type="number" class="form-control" name="altura" id='altura' placeholder="Altura">
                           </div>
                           <input type="hidden" name="datas" value=<?php echo $data ?>>
-                          <button type="submit" class="btn btn-primary btn-lg">Adicionar</button>
+                          <button type="submit" class="btn btn-primary btn-lg" onclick="aoAdicionar()">Adicionar</button>
                         </form>
     
     

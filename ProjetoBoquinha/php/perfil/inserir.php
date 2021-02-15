@@ -4,7 +4,7 @@
 
     //Arquivo de conexão com o furmulario de cadastro
 
-    if(!empty($_POST['nome']) && !empty($_POST['idade']) && !empty($_POST['peso'])){
+    if(!empty($_POST['nome']) && !empty($_POST['idade']) && !empty($_POST['peso']) && !empty($_POST['altura'])){
        
         $nome = $_POST['nome'];
 
