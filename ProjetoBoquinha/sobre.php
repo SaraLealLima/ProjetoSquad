@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylesSobre.css">
-    <script src="script.js"></script>
+
     <title>Sobre o boquinha</title>
 </head>
 <body>
