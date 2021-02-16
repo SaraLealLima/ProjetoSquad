@@ -1,5 +1,8 @@
 <footer>
     <a class="link-sobre" href="sobre.php">Conheça sobre o projeto e seus idealizadores</a> <br><br>
+
+    <a class="link-colaborador" href="adicionarReceita.php">Área do Colaborador </a><br><br>
+
     <p> 
         Projeto do tema Saúde, desenvolvido pelo Squad 6, turma São Paulo - Manhã para o programa Recode Pro.
         <br>

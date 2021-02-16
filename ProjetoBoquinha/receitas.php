@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="stylesReceitas.css">
-    <script src="script.js"></script>
 
     <title>Boquinha — Receitas</title>
 </head>

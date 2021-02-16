@@ -21,6 +21,33 @@ USE `boquinha`;
 -- Table structure for table `alimentos`
 --
 
+DROP TABLE IF EXISTS `alimentos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `alimentos` (
+  `id_alimento` int(11) NOT NULL AUTO_INCREMENT,
+  `nome_alimento` varchar(80) NOT NULL,
+  `descricao` text NOT NULL,
+  `imagem` text NOT NULL,
+  `porcao` decimal(3,1) DEFAULT NULL,
+  `calorias` decimal(3,1) DEFAULT NULL,
+  `carboidratos` decimal(3,1) DEFAULT NULL,
+  `proteinas` decimal(3,1) DEFAULT NULL,
+  PRIMARY KEY (`id_alimento`),
+  UNIQUE KEY `nome_alimento` (`nome_alimento`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `alimentos`
+--
+
+LOCK TABLES `alimentos` WRITE;
+/*!40000 ALTER TABLE `alimentos` DISABLE KEYS */;
+INSERT INTO `alimentos` VALUES (1,'Carne Bovina','Cor vermelho vivo;Gordura branca cremosa;Consistência firme;Cheiros característicos;Produtos cárneos salgados, curados ou defumados podem ser recebidos ou comprados na temperatura ambiente devendo estar de maneira geral secas e sem manchas escuras, cinzas ou esverdeadas','carne_bovina.png',NULL,NULL,NULL,NULL),(2,'Carne Suína','Cor vermelho claro; Gordura branca e firme; Cheiro suave; Ossos vermelhos e porosos; Atentar para formações redondas brancas na carne, semelhantes à canjica que a tornam impróprias para o consumo;','carne_suina.png',NULL,NULL,NULL,NULL),(3,'Carne de aves','Pele de cor amarelo rosado; Carne firme; Sem manchas azuis ou verdes; Com cheiro próprio; Observar a textura, deve ser firme e não pegajosa','carne_de_aves.png',NULL,NULL,NULL,NULL),(4,'Peixes','Pele úmida e não gordurosa; Olhos brilhantes e salientes, vivos;  Escamas bem presas à pele e brilhantes; Guelras vermelhas; Carne firme e resistente à pressão dos dedos e de cor branco rosado; Cauda firme; Cheiro próprio','peixes.png',NULL,NULL,NULL,NULL),(5,'Leite e derivados','Pasteurizado: líquido homogêneo; cor branco levemente amarelada; cheiro suave e características; gosto meio adocicado; Em pó: bem solto, de cor amarelo claro, sabor característico (levemente adocicado), dissolvendo-se com facilidade ao bater; As embalagens devem conter carimbo do SIF (Serviço de Inspeção Federal); Os derivados devem apresentar cor e dor característicos; As embalagens não devem estar estufadas ou alteradas; Verificar data de fabricação e validade','leite_e_derivados.png',NULL,NULL,NULL,NULL),(6,'Salsicha','Verificar se a embalagem está integra, sem líquido, sem líquido no seu interior com data de fabricação e validade e registros, conforme legislação em vigor; Verificar cor e odor: sem cheiro de ranço e sem manchas esbranquiçadas, verdes ou cinzas; Observar a textura: deve ser firme e não pegajosa','salsicha.png',NULL,NULL,NULL,NULL),(7,'Pães e Bolos','Observar a qualidade: cor, odor, textura e integridade do alimento; Observar a data de fabricação e validade','paes_e_bolos.png',NULL,NULL,NULL,NULL),(8,'Legumes','Tamanho uniforme; Consistência firme; Casca lisa e limpa; Verificar se há a presença de dados físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes do armazenamento','legumes.png',NULL,NULL,NULL,NULL),(9,'Frutas','Consistência firme; Cor característica; Verificar a qualidade: características sensoriais (tamanho, cor, aroma, grau de maturação); Verificar se há a existência de dados físicos, manchas, perfurações, amassados e mofados bem como a presença de insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','frutas.png',NULL,NULL,NULL,NULL),(10,'Verduras','Folhas frescas, tenras e limpas; Rejeitar as folhas: murchas e amareladas; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','verduras.png',NULL,NULL,NULL,NULL),(11,'Cereais e Leguminosas','Tamanho uniforme de acordo com o feculento; Não devem apresentar furos, manchas e defeitos; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','cereais_leguminosas.png',NULL,NULL,NULL,NULL),(12,'Enlatados','Latas não podem estar amassadas, enferrujadas, estufadas ou com vazamentos; Verificar data de fabricação e validade','enlatados.png',NULL,NULL,NULL,NULL);
+/*!40000 ALTER TABLE `alimentos` ENABLE KEYS */;
+UNLOCK TABLES;
+
 --
 -- Table structure for table `cadastro`
 --
@@ -34,7 +61,7 @@ CREATE TABLE `cadastro` (
   `senha` varchar(20) NOT NULL,
   PRIMARY KEY (`id_cadastro`),
   UNIQUE KEY `email` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,8 +70,62 @@ CREATE TABLE `cadastro` (
 
 LOCK TABLES `cadastro` WRITE;
 /*!40000 ALTER TABLE `cadastro` DISABLE KEYS */;
-INSERT INTO `cadastro` VALUES (1,'email@gmail.com','senha');
+INSERT INTO `cadastro` VALUES (1,'email@gmail.com','senha'),(2,'admin@boquinha.com','adm123'),(3,'CREN@boquinha.com','cren123');
 /*!40000 ALTER TABLE `cadastro` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `crianca`
+--
+
+DROP TABLE IF EXISTS `crianca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `crianca` (
+  `id_crianca` int(11) NOT NULL AUTO_INCREMENT,
+  `id_cadastro` int(11) NOT NULL,
+  `nome` varchar(45) NOT NULL,
+  `sexo` varchar(15) NOT NULL,
+  PRIMARY KEY (`id_crianca`),
+  KEY `id_cadastro` (`id_cadastro`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `crianca`
+--
+
+LOCK TABLES `crianca` WRITE;
+/*!40000 ALTER TABLE `crianca` DISABLE KEYS */;
+/*!40000 ALTER TABLE `crianca` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `dados_crianca`
+--
+
+DROP TABLE IF EXISTS `dados_crianca`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `dados_crianca` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_dados_crianca` int(11) NOT NULL,
+  `idade` int(11) NOT NULL,
+  `peso` int(11) NOT NULL,
+  `altura` int(11) NOT NULL,
+  `datas` text NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `id_dados_crianca` (`id_dados_crianca`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `dados_crianca`
+--
+
+LOCK TABLES `dados_crianca` WRITE;
+/*!40000 ALTER TABLE `dados_crianca` DISABLE KEYS */;
+/*!40000 ALTER TABLE `dados_crianca` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -79,30 +160,6 @@ UNLOCK TABLES;
 -- Table structure for table `sucos`
 --
 
-CREATE TABLE `alimentos` (
-  `id_alimento` int(11) NOT NULL AUTO_INCREMENT,
-  `nome_alimento` varchar(80) NOT NULL,
-  `descricao` text NOT NULL,
-  `imagem` text NOT NULL,
-  `porcao` decimal(3,1) DEFAULT NULL,
-  `calorias` decimal(3,1) DEFAULT NULL,
-  `carboidratos` decimal(3,1) DEFAULT NULL,
-  `proteinas` decimal(3,1) DEFAULT NULL,
-  PRIMARY KEY (`id_alimento`),
-  UNIQUE KEY `nome_alimento` (`nome_alimento`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `alimentos`
---
-
-LOCK TABLES `alimentos` WRITE;
-/*!40000 ALTER TABLE `alimentos` DISABLE KEYS */;
-INSERT INTO `alimentos` VALUES (1,'Carne Bovina','Cor vermelho vivo;Gordura branca cremosa;Consistência firme;Cheiros característicos;Produtos cárneos salgados, curados ou defumados podem ser recebidos ou comprados na temperatura ambiente devendo estar de maneira geral secas e sem manchas escuras, cinzas ou esverdeadas','carne_bovina.png',NULL,NULL,NULL,NULL),(2,'Carne Suína','Cor vermelho claro; Gordura branca e firme; Cheiro suave; Ossos vermelhos e porosos; Atentar para formações redondas brancas na carne, semelhantes à canjica que a tornam impróprias para o consumo;','carne_suina.png',NULL,NULL,NULL,NULL),(3,'Carne de aves','Pele de cor amarelo rosado; Carne firme; Sem manchas azuis ou verdes; Com cheiro próprio; Observar a textura, deve ser firme e não pegajosa','carne_de_aves.png',NULL,NULL,NULL,NULL),(4,'Peixes','Pele úmida e não gordurosa; Olhos brilhantes e salientes, vivos;  Escamas bem presas à pele e brilhantes; Guelras vermelhas; Carne firme e resistente à pressão dos dedos e de cor branco rosado; Cauda firme; Cheiro próprio','peixes.png',NULL,NULL,NULL,NULL),(5,'Leite e derivados','Pasteurizado: líquido homogêneo; cor branco levemente amarelada; cheiro suave e características; gosto meio adocicado; Em pó: bem solto, de cor amarelo claro, sabor característico (levemente adocicado), dissolvendo-se com facilidade ao bater; As embalagens devem conter carimbo do SIF (Serviço de Inspeção Federal); Os derivados devem apresentar cor e dor característicos; As embalagens não devem estar estufadas ou alteradas; Verificar data de fabricação e validade','leite_e_derivados.png',NULL,NULL,NULL,NULL),(6,'Salsicha','Verificar se a embalagem está integra, sem líquido, sem líquido no seu interior com data de fabricação e validade e registros, conforme legislação em vigor; Verificar cor e odor: sem cheiro de ranço e sem manchas esbranquiçadas, verdes ou cinzas; Observar a textura: deve ser firme e não pegajosa','salsicha.png',NULL,NULL,NULL,NULL),(7,'Pães e Bolos','Observar a qualidade: cor, odor, textura e integridade do alimento; Observar a data de fabricação e validade','paes_e_bolos.png',NULL,NULL,NULL,NULL),(8,'Legumes','Tamanho uniforme; Consistência firme; Casca lisa e limpa; Verificar se há a presença de dados físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes do armazenamento','legumes.png',NULL,NULL,NULL,NULL),(9,'Frutas','Consistência firme; Cor característica; Verificar a qualidade: características sensoriais (tamanho, cor, aroma, grau de maturação); Verificar se há a existência de dados físicos, manchas, perfurações, amassados e mofados bem como a presença de insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','frutas.png',NULL,NULL,NULL,NULL),(10,'Verduras','Folhas frescas, tenras e limpas; Rejeitar as folhas: murchas e amareladas; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','verduras.png',NULL,NULL,NULL,NULL),(11,'Cereais e Leguminosas','Tamanho uniforme de acordo com o feculento; Não devem apresentar furos, manchas e defeitos; Verificar se há a presença de danos físicos, insetos, larvas e fungos; Quando acondicionados em caixas, retirar os alimentos das embalagens originais para conferi-los e selecioná-los antes de serem encaminhados ao armazenamento','cereais_leguminosas.png',NULL,NULL,NULL,NULL),(12,'Enlatados','Latas não podem estar amassadas, enferrujadas, estufadas ou com vazamentos; Verificar data de fabricação e validade','enlatados.png',NULL,NULL,NULL,NULL);
-/*!40000 ALTER TABLE `alimentos` ENABLE KEYS */;
-UNLOCK TABLES;
-
 DROP TABLE IF EXISTS `sucos`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
@@ -124,25 +181,7 @@ LOCK TABLES `sucos` WRITE;
 /*!40000 ALTER TABLE `sucos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-CREATE TABLE crianca (
-  id_crianca INT NOT NULL AUTO_INCREMENT,
-  id_cadastro INT NOT NULL,
-  nome VARCHAR(45) NOT NULL,
-  sexo VARCHAR(15) NOT NULL,
-  PRIMARY KEY (id_crianca),
-  FOREIGN KEY (id_cadastro) REFERENCES cadastro (id_cadastro)
-);
-  
-CREATE TABLE dados_crianca (
-  id INT NOT NULL AUTO_INCREMENT,
-  id_dados_crianca INT NOT NULL,
-  idade INT NOT NULL,
-  peso INT NOT NULL,
-  altura INT NOT NULL,
-  datas TEXT NOT NULL,
-  PRIMARY KEY (id),
-  FOREIGN KEY (id_dados_crianca) REFERENCES crianca (id_crianca)
-);
+
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
@@ -151,4 +190,4 @@ CREATE TABLE dados_crianca (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-15 17:57:59
+-- Dump completed on 2021-02-16 11:45:34

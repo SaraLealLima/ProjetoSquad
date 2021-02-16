@@ -178,6 +178,13 @@ footer p {
 .link-sobre:hover {
     color: rgb(255, 168, 117);
 }
+.link-colaborador {
+    font-size: 20px;
+    color:rgb(0, 166, 255)
+}
+.link-colaborador:hover {
+    color: rgb(0, 166, 255)
+}
 
 @media (max-width: 990px) {
     .navbar-blur{
