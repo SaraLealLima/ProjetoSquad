@@ -1,0 +1,24 @@
+.bloco1{
+width: 18rem;
+padding: 20px;
+height: 30rem;
+align-items: center;
+background-color: #28a745;
+border-radius: 10px;
+box-shadow: 5px 10px;
+}
+
+.img{
+width:100%;
+height:100%;
+
+}
+
+#boximg{
+position: relative;
+height: 100%;
+width: 100%;
+background-image: url(./images/madeiraReceitas.jpg);
+background-size: cover;
+}
+
