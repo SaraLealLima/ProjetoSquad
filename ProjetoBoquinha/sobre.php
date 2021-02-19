@@ -46,7 +46,7 @@
 
                     <div class="card-deck row mb-5 justify-content-center">
                         <div class="card col-8 col-sm-2 px-0 mx2 border-success">
-                            <img class="card-img-top" src="./images/integranteCosmo" alt="Cosmo Amaro">
+                            <img class="card-img-top" src="./images/integranteCosmo.jpg" alt="Cosmo Amaro">
                             <div class="card-body">
                                 <h5 class="card-title">Cosmo Amaro</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
@@ -55,7 +55,7 @@
                         </div>
     
                         <div class="card col-8 col-sm-2 px-0 mx-2 border-danger">
-                            <img class="card-img-top" src="./images/integranteDiego" alt="Diego Carmo">
+                            <img class="card-img-top" src="./images/integranteDiego.jpg" alt="Diego Carmo">
                             <div class="card-body">
                                 <h5 class="card-title">Diego Carmo</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
@@ -64,7 +64,7 @@
                         </div>
     
                         <div class="card col-8 col-sm-2 px-0 mx-2 border-primary">
-                            <img class="card-img-top" src="./images/integranteRafael" alt="Rafael Amaral">
+                            <img class="card-img-top" src="./images/integranteRafael.jpg" alt="Rafael Amaral">
                             <div class="card-body">
                                 <h5 class="card-title">Rafael Amaral</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
@@ -73,7 +73,7 @@
                         </div>
 
                         <div class="card col-8 col-sm-2 px-0 mx-2 border-success">
-                            <img class="card-img-top" src="./images/integranteSamanta" alt="Samanta Antonio">
+                            <img class="card-img-top" src="./images/integranteSamanta.jpg" alt="Samanta Antonio">
                             <div class="card-body">
                                 <h5 class="card-title">Samanta Antonio</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
@@ -82,7 +82,7 @@
                         </div>
 
                         <div class="card col-8 col-sm-2 px-0 mx-2 border-danger">
-                            <img class="card-img-top" src="./images/integranteSara" alt="Sara Leal Lima">
+                            <img class="card-img-top" src="./images/integranteSara.jpg" alt="Sara Leal Lima">
                             <div class="card-body">
                                 <h5 class="card-title">Sara Leal Lima</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
@@ -91,7 +91,7 @@
                         </div>
 
                         <div class="card col-8 col-sm-2 px-0 mx-2 border-primary">
-                            <img class="card-img-top" src="./images/integranteVinicius" alt="Vinicius Brito">
+                            <img class="card-img-top" src="./images/integranteVinicius.jpg" alt="Vinicius Brito">
                             <div class="card-body">
                                 <h5 class="card-title">Vinicius Brito</h5>
                                 <p class="card-text">Estudante da Recode Pro. Entre em contato comigo clicando no botão</p>
