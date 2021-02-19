@@ -5,22 +5,22 @@
             <div class="form">
                     <form method="post" enctype="multipart/form-data" action="">
                     <label for="nome">Nome da receita: </label><br>
-                    <input type="text" name="nome" id="nome"><br>
+                    <input type="text" name="nome" id="nome" class="form-control"><br>
                     <label for="idade">Faixa etaria: </label><br>
-                    <select name="idade" id="idade">
-                        <option value="meses_6_8" name="meses_6_8">6 a 8 meses</option>
+                    <select name="idade" id="idade" class="custom-select">
+                        <option value="meses_6_8" name="meses_6_8" selected>6 a 8 meses</option>
                         <option value="meses_8_11" name="meses_8_11">8 a 11 meses</option>
                         <option value="anos_1_2" name="anos_1_2">1 a 2 anos</option>
                         <option value="anos_2_4" name="anos_2_4">2 a 4 anos</option>
                     </select><br>
                     <label for="ingredientes">Ingredientes:</label><br>
-                    <textarea style="resize: none;" name="ingredientes" id="ingredientes"></textarea><br>
+                    <textarea style="resize: none;" name="ingredientes" id="ingredientes" class="form-control"></textarea><br>
                     <p style="font-size: 10px; margin-top: 0;">A cada ingrediente pular uma linha</p>
                     <label for="preparo">Preparo:</label><br>
-                    <textarea style="resize: none;" name="preparo" id="preparo"></textarea><br>
+                    <textarea style="resize: none;" name="preparo" id="preparo" class="form-control"></textarea><br>
                     <label for="nome">Nome da Editor: </label><br>
-                    <input type="text" name="nome" id="nome"><br><br>        
-                    <input type="submit" value="Enviar" name="submit">
+                    <input type="text" name="nome" id="nome" class="form-control"><br><br>        
+                    <input type="submit" value="Enviar" name="submit" class='btn btn-lg btn-success'>
                 </form>
             </div>
         </div>

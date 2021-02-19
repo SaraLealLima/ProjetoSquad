@@ -31,3 +31,9 @@ padding-bottom: 95px;
 border-radius: 0.35rem;
 }
 
+@media screen and (max-width: 990px) {
+    .bloco1{
+        width: 80%;
+        margin-top: 196px;
+    }
+}
